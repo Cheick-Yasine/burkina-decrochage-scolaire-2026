@@ -2,96 +2,111 @@
 
 **Data Challenge Burkina — Édition Éducation 2026 — Défi 1**
 
-> Où le risque de décrochage est-il le plus fort, par région, et comment l'anticiper ?
+> Où le risque de décrochage est-il le plus fort, par région et province, et comment l'anticiper ?
 
-## Objectif
+## Vision du projet
 
-Construire une solution d'aide à la décision qui décrit les disparités territoriales liées au parcours scolaire, repère les zones nécessitant une attention particulière et, si les données le permettent, estime les risques futurs.
+Construire une plateforme web d'aide à la décision et de vigilance scolaire couvrant trois cycles :
+- **Primaire** : maintien, abandon, redoublement et achèvement ;
+- **Post-primaire** : transition CM2–6e, maintien et abandon ;
+- **Secondaire** : maintien, abandon et vulnérabilités du parcours.
 
-La solution visée comprendra :
-- une base de données scolaire documentée et harmonisée ;
-- des indicateurs calculés et vérifiés ;
-- une analyse temporelle et territoriale ;
-- une carte ou un tableau de bord d'alerte ;
-- un indice de risque transparent, puis éventuellement un modèle prédictif évalué.
+La couverture des trois cycles constitue l'ambition fonctionnelle. Elle sera réalisée progressivement, en commençant par le primaire, puis en intégrant le post-primaire et le secondaire selon la disponibilité et la comparabilité des sources.
 
-**Attention :** un indicateur indirect (baisse des effectifs, faible achèvement, etc.) ne constitue pas à lui seul une mesure du décrochage. Les résultats distingueront clairement les mesures observées, les indicateurs indirects et les estimations.
+La plateforme visée réunira :
+1. un tableau de bord cartographique multicouche, à l'échelle géographique réellement disponible ;
+2. un **Score de Risque de Décrochage (SRD)** documenté et interprétable ;
+3. lorsque les données cibles et historiques le permettent, un modèle prédictif évalué hors échantillon ;
+4. des recommandations opérationnelles pour les décideurs et acteurs de terrain.
 
-## Sources de départ
+## Périmètre du challenge et ambition élargie
 
-Le classeur fourni pour le challenge est : *Données statistiques préscolaire et primaire 2016-2025* (DGESS, Ministère de l'Éducation nationale). Il contient 14 feuilles :
-- PRESCOLAIRE ;
-- Feuil1 à Feuil13, comprenant notamment les effectifs du primaire, les nouveaux inscrits au CP1, les TBA, TBS, taux d'achèvement, réussite au CEP, IPS et nombre d'écoles.
+Le Défi 1 du Data Challenge demande d'identifier où le risque est le plus fort par région et comment l'anticiper. Les données cœur annoncées sont :
+- tableaux de bord du primaire : abandon, redoublement et achèvement (2015–2024) ;
+- annuaires du primaire : abandons par province ;
+- tableaux de bord du post-primaire : transition.
 
-Le classeur constitue une base de travail, mais l'inventaire initial ne fait pas apparaître de tableau explicite des abandons par province. Il faudra donc retrouver dans le Data Pack / les annuaires DGESS les tableaux d'abandon par province et les données de transition post-primaire mentionnés pour le Défi 1.
+Les données d'appui facultatives citées comprennent les rapports ESU sur les écoles fermées, les données de personnes déplacées internes, l'EHCVM 2021 et les profils de pauvreté, ainsi que l'EDS 2021 sur le mariage précoce des filles.
 
-## Parcours de traitement
+**Le secondaire fait partie de la vision de la plateforme, mais n'est pas explicitement listé parmi les données cœur du Défi 1 dans la présentation de l'organisateur.** Il sera intégré après identification de sources officielles adéquates. Nous ne supposerons pas que ces données sont déjà présentes.
 
-Le dépôt suit les cinq étapes recommandées par l'organisation :
+## Sources déjà inventoriées
 
-1. [Collecte](01_collecte/README.md) — sources, provenance et versions.
-2. [Nettoyage](02_nettoyage/README.md) — qualité, harmonisation et journal des corrections.
-3. [Transformation](03_transformation/README.md) — indicateurs et modèle commun.
-4. [Analyse](04_analyse/README.md) — statistiques, tendances et modèles.
-5. [Interprétation](05_interpretation/README.md) — carte, tableau de bord et recommandations.
+Le classeur DGESS *Données statistiques préscolaire et primaire 2016–2025* comprend 14 feuilles : préscolaire, effectifs du primaire, nouveaux entrants au CP1, TBA, TBS, achèvement, réussite au CEP, indices de parité et nombre d'écoles.
+
+L'inventaire effectué ne fait pas apparaître de tableau explicite des abandons par province dans ce classeur. Les effectifs, TBS, TAP et résultats au CEP sont des indicateurs de contexte ; ils ne doivent pas être présentés comme des abandons observés.
+
+Les données brutes restent locales et ne sont pas versionnées dans ce dépôt public.
+
+## Architecture fonctionnelle
+
+- **Collecte** : sources, provenance, période, géographie, droits d'usage.
+- **Nettoyage** : contrôles, harmonisation des libellés et journal des corrections.
+- **Transformation** : indicateurs comparables par cycle, année et territoire.
+- **Analyse** : tendances, transitions, disparités et analyse spatiale.
+- **Modélisation** : indice SRD d'abord ; modèle prédictif seulement si une cible fiable et assez d'historique sont disponibles.
+- **Application** : carte, filtres par cycle, fiches territoriales, niveaux d'alerte et recommandations.
+- **Interprétation** : limites, décisions possibles et suivi des actions.
+
+Voir [l'architecture cible](documentation/architecture_cible.md) et le [plan de travail](documentation/plan_travail.md).
+
+## Principes méthodologiques non négociables
+
+- Distinguer **abandon observé**, **signal indirect de vulnérabilité** et **risque estimé**.
+- Une baisse d'effectifs ne prouve pas un abandon : migrations, déplacements, redoublement, changements de périmètre et fermetures peuvent aussi l'expliquer.
+- Ne pas confondre année scolaire et année civile.
+- Ne pas mélanger les anciennes régions (13) et les nouvelles (17) sans table de correspondance validée.
+- Harmoniser les provinces et privilégier les P-codes lorsqu'ils sont disponibles.
+- Retirer les lignes de total des calculs analytiques, tout en les conservant éventuellement pour les contrôles de cohérence.
+- Vérifier les agrégats avec les publications d'origine.
+- Documenter producteur, publication, année, page/tableau et transformation.
+- Construire un indice transparent avant tout algorithme complexe.
+- Ne pas annoncer une probabilité prédictive sans cible observée, protocole de validation temporelle et mesure de performance.
+- Les données brutes doivent être nettoyées localement avant tout recours à une IA ; ne jamais téléverser les données brutes ou sensibles.
 
 ## Organisation du dépôt
 
 - `data/raw/` : données sources locales, non versionnées.
-- `data/processed/` : données préparées, à publier uniquement si leur diffusion est autorisée.
-- `data/final/` : données agrégées finales autorisées.
-- `src/` : code Python de traitement et d'analyse.
-- `documentation/` : dictionnaire, méthode et rapport.
-- `tests/` : contrôles de qualité.
+- `data/processed/` : données préparées, partageables uniquement si autorisées.
+- `data/final/` : agrégats finaux autorisés.
+- `01_collecte/` à `05_interpretation/` : cinq étapes du challenge.
+- `04_analyse/` : analyses séparées par cycle.
+- `06_modelisation/` : indice SRD, prédiction et évaluation.
+- `07_application/` : application cartographique et tableau de bord.
+- `documentation/` : dictionnaire, méthode, architecture et rapport.
+- `tests/` : contrôles automatisés.
 
-Les fichiers de données brutes ne doivent pas être ajoutés à un dépôt public. Le document de présentation du challenge précise que les données sont réservées à l'usage du concours et demande de ne pas envoyer les données brutes à une IA. Le travail de préparation doit donc être réalisé localement ; seuls des résultats et fichiers dont la publication est autorisée seront partagés.
+Les fichiers de données brutes ne doivent jamais être ajoutés au dépôt public. Les données préparées ne sont publiées qu'après vérification des conditions de diffusion.
 
-## Démarrage
+## Validation temporelle
 
-Python 3.10 ou supérieur recommandé.
+Le conseil de l'organisateur est d'entraîner sur 2017–2023 et de tester sur 2024–2025, si les observations sont suffisantes et comparables. Ce découpage sera adapté au cycle, à la cible disponible et à la période réelle des sources ; il ne sera pas appliqué mécaniquement.
 
-```bash
-python -m venv .venv
-# Windows
-.venv\Scripts\activate
-# Linux / macOS
-source .venv/bin/activate
-pip install -r requirements.txt
-```
+## Livrables
 
-Les scripts seront ajoutés au fur et à mesure que le dictionnaire réel des colonnes et les règles de nettoyage auront été vérifiés.
+- données de travail et journaux de nettoyage documentés ;
+- dictionnaire et schéma harmonisé ;
+- indicateurs par cycle et territoire ;
+- indice SRD interprétable ;
+- évaluation du modèle prédictif, si réalisable ;
+- carte/tableau de bord relançable ;
+- recommandations et documentation de 15 pages maximum pour le challenge.
 
-## Principes méthodologiques
+## État d'avancement
 
-- Conserver l'année scolaire (ex. 2024-2025) et ne pas la confondre avec l'année civile.
-- Retirer les lignes de total avant les calculs.
-- Harmoniser les noms de régions et de provinces sans fusion géographique arbitraire.
-- Tenir compte du passage de 13 anciennes régions à 17 nouvelles régions.
-- Utiliser les P-codes comme clés de rapprochement lorsque disponibles.
-- Vérifier les totaux calculés avec les publications d'origine.
-- Citer chaque source : producteur, publication et année.
-- Si un modèle est construit, suivre le conseil du challenge : entraînement 2017-2023 et test 2024-2025, sous réserve que les observations soient suffisantes et comparables.
-
-## Livrables attendus
-
-- Données brutes référencées, données propres et journal de nettoyage.
-- Schéma de données et dictionnaire des variables.
-- Indicateurs, graphiques, carte ou tableau de bord.
-- Code du modèle et mesure de sa fiabilité si une prévision est réalisable.
-- Documentation de 15 pages maximum expliquant la réponse au défi.
-
-## État du projet
-
-- [x] Dépôt initialisé.
-- [x] Arborescence documentaire créée.
-- [ ] Inventaire détaillé des colonnes et des unités.
-- [ ] Acquisition des tableaux d'abandon par province.
-- [ ] Harmonisation géographique et nettoyage.
+- [x] Dépôt GitHub initialisé.
+- [x] Inventaire structurel du classeur DGESS (14 feuilles).
+- [x] Première cartographie des tableaux de la feuille PRESCOLAIRE.
+- [x] Dictionnaire initial et rapports de diagnostic locaux.
+- [ ] Vérification complète des libellés, unités et périodes.
+- [ ] Acquisition des abandons par province et données de transition post-primaire.
+- [ ] Identification de sources officielles pour le secondaire.
+- [ ] Harmonisation géographique et nettoyage des données autorisées.
 - [ ] Calcul des indicateurs et contrôles.
-- [ ] Analyse et carte d'alerte.
-- [ ] Évaluation éventuelle d'un modèle prédictif.
-- [ ] Rapport final et démonstration.
+- [ ] Construction et évaluation du SRD.
+- [ ] Carte, tableau de bord et recommandations.
+- [ ] Documentation finale et démonstration.
 
-## Référence
+## Références du challenge
 
-Data Challenge Burkina, Édition Éducation 2026 : *Le document du challenge* et *Rencontre en ligne avec les équipes*, 15 novembre 2026. Source statistique principale annoncée : DGESS, Ministère de l'Éducation nationale.
+Data Challenge Burkina, Édition Éducation 2026 : *Le document du challenge* et *Rencontre en ligne avec les équipes*, 15 novembre 2026.
