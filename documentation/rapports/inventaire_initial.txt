@@ -1,0 +1,115 @@
+INVENTAIRE DU CLASSEUR : DONNEES_STATISTIQUES_PRESCOLAIRE_PRIMAIRE_2016_2025.xlsx
+Nombre de feuilles : 14
+
+FEUILLE : PRESCOLAIRE
+Lignes maximales : 235
+Colonnes maximales : 32
+Lignes non vides : 192
+Cellules non vides : 3072
+Colonnes utilisées : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+Formules : 0
+
+FEUILLE : Feuil1
+Lignes maximales : 67
+Colonnes maximales : 12
+Lignes non vides : 45
+Cellules non vides : 490
+Colonnes utilisées : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+Formules : 0
+
+FEUILLE : Feuil2
+Lignes maximales : 70
+Colonnes maximales : 12
+Lignes non vides : 12
+Cellules non vides : 116
+Colonnes utilisées : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+Formules : 0
+
+FEUILLE : Feuil3
+Lignes maximales : 96
+Colonnes maximales : 12
+Lignes non vides : 12
+Cellules non vides : 116
+Colonnes utilisées : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+Formules : 0
+
+FEUILLE : Feuil4
+Lignes maximales : 113
+Colonnes maximales : 13
+Lignes non vides : 48
+Cellules non vides : 527
+Colonnes utilisées : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+Formules : 0
+
+FEUILLE : Feuil5
+Lignes maximales : 77
+Colonnes maximales : 12
+Lignes non vides : 45
+Cellules non vides : 490
+Colonnes utilisées : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+Formules : 0
+
+FEUILLE : Feuil6
+Lignes maximales : 58
+Colonnes maximales : 31
+Lignes non vides : 18
+Cellules non vides : 477
+Colonnes utilisées : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
+Formules : 0
+
+FEUILLE : Feuil7
+Lignes maximales : 108
+Colonnes maximales : 31
+Lignes non vides : 18
+Cellules non vides : 477
+Colonnes utilisées : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
+Formules : 0
+
+FEUILLE : Feuil8
+Lignes maximales : 84
+Colonnes maximales : 31
+Lignes non vides : 18
+Cellules non vides : 477
+Colonnes utilisées : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
+Formules : 0
+
+FEUILLE : Feuil9
+Lignes maximales : 166
+Colonnes maximales : 12
+Lignes non vides : 45
+Cellules non vides : 490
+Colonnes utilisées : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+Formules : 0
+
+FEUILLE : Feuil10
+Lignes maximales : 128
+Colonnes maximales : 11
+Lignes non vides : 17
+Cellules non vides : 167
+Colonnes utilisées : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+Formules : 140
+
+FEUILLE : Feuil11
+Lignes maximales : 124
+Colonnes maximales : 11
+Lignes non vides : 17
+Cellules non vides : 167
+Colonnes utilisées : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+Formules : 140
+
+FEUILLE : Feuil12
+Lignes maximales : 102
+Colonnes maximales : 11
+Lignes non vides : 17
+Cellules non vides : 167
+Colonnes utilisées : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+Formules : 140
+
+FEUILLE : Feuil13
+Lignes maximales : 140
+Colonnes maximales : 12
+Lignes non vides : 45
+Cellules non vides : 490
+Colonnes utilisées : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+Formules : 0
+

@@ -1,0 +1,5216 @@
+{
+  "PRESCOLAIRE": [
+    {
+      "numero_ligne": 2,
+      "libelles": [
+        {
+          "cellule": "A2",
+          "libelle": "REGION"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 3,
+      "libelles": [
+        {
+          "cellule": "B3",
+          "libelle": "G"
+        },
+        {
+          "cellule": "C3",
+          "libelle": "F"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 4,
+      "libelles": [
+        {
+          "cellule": "A4",
+          "libelle": "BOUCLE DU MOUHOUN"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 5,
+      "libelles": [
+        {
+          "cellule": "A5",
+          "libelle": "CASCADES"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 6,
+      "libelles": [
+        {
+          "cellule": "A6",
+          "libelle": "CENTRE"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 7,
+      "libelles": [
+        {
+          "cellule": "A7",
+          "libelle": "CENTRE-EST"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 8,
+      "libelles": [
+        {
+          "cellule": "A8",
+          "libelle": "CENTRE-NORD"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 9,
+      "libelles": [
+        {
+          "cellule": "A9",
+          "libelle": "CENTRE-OUEST"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 10,
+      "libelles": [
+        {
+          "cellule": "A10",
+          "libelle": "CENTRE-SUD"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 11,
+      "libelles": [
+        {
+          "cellule": "A11",
+          "libelle": "EST"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 12,
+      "libelles": [
+        {
+          "cellule": "A12",
+          "libelle": "HAUTS-BASSINS"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 13,
+      "libelles": [
+        {
+          "cellule": "A13",
+          "libelle": "NORD"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 14,
+      "libelles": [
+        {
+          "cellule": "A14",
+          "libelle": "PLATEAU CENTRAL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 15,
+      "libelles": [
+        {
+          "cellule": "A15",
+          "libelle": "SAHEL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 16,
+      "libelles": [
+        {
+          "cellule": "A16",
+          "libelle": "SUD-OUEST"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 17,
+      "libelles": [
+        {
+          "cellule": "A17",
+          "libelle": "Total général"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 20,
+      "libelles": [
+        {
+          "cellule": "A20",
+          "libelle": "STATUT"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 21,
+      "libelles": [
+        {
+          "cellule": "B21",
+          "libelle": "G"
+        },
+        {
+          "cellule": "C21",
+          "libelle": "F"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 22,
+      "libelles": [
+        {
+          "cellule": "A22",
+          "libelle": "Public"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 23,
+      "libelles": [
+        {
+          "cellule": "A23",
+          "libelle": "Privé"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 24,
+      "libelles": [
+        {
+          "cellule": "A24",
+          "libelle": "Communautaire"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 25,
+      "libelles": [
+        {
+          "cellule": "A25",
+          "libelle": "Total général"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 28,
+      "libelles": [
+        {
+          "cellule": "A28",
+          "libelle": "REGION"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 29,
+      "libelles": [
+        {
+          "cellule": "B29",
+          "libelle": "G"
+        },
+        {
+          "cellule": "C29",
+          "libelle": "F"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 30,
+      "libelles": [
+        {
+          "cellule": "A30",
+          "libelle": "Urbain"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 31,
+      "libelles": [
+        {
+          "cellule": "A31",
+          "libelle": "Rural"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 32,
+      "libelles": [
+        {
+          "cellule": "A32",
+          "libelle": "indeterminé"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 33,
+      "libelles": [
+        {
+          "cellule": "A33",
+          "libelle": "Total général"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 37,
+      "libelles": [
+        {
+          "cellule": "A37",
+          "libelle": "STATUT"
+        },
+        {
+          "cellule": "B37",
+          "libelle": "NIVEAU"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 38,
+      "libelles": [
+        {
+          "cellule": "C38",
+          "libelle": "G"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 39,
+      "libelles": [
+        {
+          "cellule": "A39",
+          "libelle": "Public"
+        },
+        {
+          "cellule": "B39",
+          "libelle": "Grande section"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 40,
+      "libelles": [
+        {
+          "cellule": "B40",
+          "libelle": "Moyenne section"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 41,
+      "libelles": [
+        {
+          "cellule": "B41",
+          "libelle": "Petite section"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 42,
+      "libelles": [
+        {
+          "cellule": "A42",
+          "libelle": "Total Public"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 43,
+      "libelles": [
+        {
+          "cellule": "A43",
+          "libelle": "Privé"
+        },
+        {
+          "cellule": "B43",
+          "libelle": "Grande section"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 44,
+      "libelles": [
+        {
+          "cellule": "B44",
+          "libelle": "Moyenne section"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 45,
+      "libelles": [
+        {
+          "cellule": "B45",
+          "libelle": "Petite section"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 46,
+      "libelles": [
+        {
+          "cellule": "A46",
+          "libelle": "Total Privé"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 47,
+      "libelles": [
+        {
+          "cellule": "A47",
+          "libelle": "Communautaire"
+        },
+        {
+          "cellule": "B47",
+          "libelle": "Grande section"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 48,
+      "libelles": [
+        {
+          "cellule": "B48",
+          "libelle": "Moyenne section"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 49,
+      "libelles": [
+        {
+          "cellule": "B49",
+          "libelle": "Petite section"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 50,
+      "libelles": [
+        {
+          "cellule": "A50",
+          "libelle": "Total Communautaire"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 51,
+      "libelles": [
+        {
+          "cellule": "A51",
+          "libelle": "Total général"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 55,
+      "libelles": [
+        {
+          "cellule": "A55",
+          "libelle": "REGION"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 56,
+      "libelles": [
+        {
+          "cellule": "B56",
+          "libelle": "G"
+        },
+        {
+          "cellule": "C56",
+          "libelle": "F"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 57,
+      "libelles": [
+        {
+          "cellule": "A57",
+          "libelle": "BOUCLE DU MOUHOUN"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 58,
+      "libelles": [
+        {
+          "cellule": "A58",
+          "libelle": "CASCADES"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 59,
+      "libelles": [
+        {
+          "cellule": "A59",
+          "libelle": "CENTRE"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 60,
+      "libelles": [
+        {
+          "cellule": "A60",
+          "libelle": "CENTRE-EST"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 61,
+      "libelles": [
+        {
+          "cellule": "A61",
+          "libelle": "CENTRE-NORD"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 62,
+      "libelles": [
+        {
+          "cellule": "A62",
+          "libelle": "CENTRE-OUEST"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 63,
+      "libelles": [
+        {
+          "cellule": "A63",
+          "libelle": "CENTRE-SUD"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 64,
+      "libelles": [
+        {
+          "cellule": "A64",
+          "libelle": "EST"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 65,
+      "libelles": [
+        {
+          "cellule": "A65",
+          "libelle": "HAUTS-BASSINS"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 66,
+      "libelles": [
+        {
+          "cellule": "A66",
+          "libelle": "NORD"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 67,
+      "libelles": [
+        {
+          "cellule": "A67",
+          "libelle": "PLATEAU CENTRAL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 68,
+      "libelles": [
+        {
+          "cellule": "A68",
+          "libelle": "SAHEL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 69,
+      "libelles": [
+        {
+          "cellule": "A69",
+          "libelle": "SUD-OUEST"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 70,
+      "libelles": [
+        {
+          "cellule": "A70",
+          "libelle": "Total général"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 74,
+      "libelles": [
+        {
+          "cellule": "A74",
+          "libelle": "REGION"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 75,
+      "libelles": [
+        {
+          "cellule": "A75",
+          "libelle": "BOUCLE DU MOUHOUN"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 76,
+      "libelles": [
+        {
+          "cellule": "A76",
+          "libelle": "CASCADES"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 77,
+      "libelles": [
+        {
+          "cellule": "A77",
+          "libelle": "CENTRE"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 78,
+      "libelles": [
+        {
+          "cellule": "A78",
+          "libelle": "CENTRE-EST"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 79,
+      "libelles": [
+        {
+          "cellule": "A79",
+          "libelle": "CENTRE-NORD"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 80,
+      "libelles": [
+        {
+          "cellule": "A80",
+          "libelle": "CENTRE-OUEST"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 81,
+      "libelles": [
+        {
+          "cellule": "A81",
+          "libelle": "CENTRE-SUD"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 82,
+      "libelles": [
+        {
+          "cellule": "A82",
+          "libelle": "EST"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 83,
+      "libelles": [
+        {
+          "cellule": "A83",
+          "libelle": "HAUTS-BASSINS"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 84,
+      "libelles": [
+        {
+          "cellule": "A84",
+          "libelle": "NORD"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 85,
+      "libelles": [
+        {
+          "cellule": "A85",
+          "libelle": "PLATEAU CENTRAL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 86,
+      "libelles": [
+        {
+          "cellule": "A86",
+          "libelle": "SAHEL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 87,
+      "libelles": [
+        {
+          "cellule": "A87",
+          "libelle": "SUD-OUEST"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 88,
+      "libelles": [
+        {
+          "cellule": "A88",
+          "libelle": "Total général"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 92,
+      "libelles": [
+        {
+          "cellule": "A92",
+          "libelle": "REGION"
+        },
+        {
+          "cellule": "B92",
+          "libelle": "STATUT"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 93,
+      "libelles": [
+        {
+          "cellule": "A93",
+          "libelle": "BOUCLE DU MOUHOUN"
+        },
+        {
+          "cellule": "B93",
+          "libelle": "Public"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 94,
+      "libelles": [
+        {
+          "cellule": "B94",
+          "libelle": "Privé"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 95,
+      "libelles": [
+        {
+          "cellule": "B95",
+          "libelle": "Communautaire"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 96,
+      "libelles": [
+        {
+          "cellule": "A96",
+          "libelle": "Total BOUCLE DU MOUHOUN"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 97,
+      "libelles": [
+        {
+          "cellule": "A97",
+          "libelle": "CASCADES"
+        },
+        {
+          "cellule": "B97",
+          "libelle": "Public"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 98,
+      "libelles": [
+        {
+          "cellule": "B98",
+          "libelle": "Privé"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 99,
+      "libelles": [
+        {
+          "cellule": "B99",
+          "libelle": "Communautaire"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 100,
+      "libelles": [
+        {
+          "cellule": "A100",
+          "libelle": "Total CASCADES"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 101,
+      "libelles": [
+        {
+          "cellule": "A101",
+          "libelle": "CENTRE"
+        },
+        {
+          "cellule": "B101",
+          "libelle": "Public"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 102,
+      "libelles": [
+        {
+          "cellule": "B102",
+          "libelle": "Privé"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 103,
+      "libelles": [
+        {
+          "cellule": "B103",
+          "libelle": "Communautaire"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 104,
+      "libelles": [
+        {
+          "cellule": "A104",
+          "libelle": "Total CENTRE"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 105,
+      "libelles": [
+        {
+          "cellule": "A105",
+          "libelle": "CENTRE-EST"
+        },
+        {
+          "cellule": "B105",
+          "libelle": "Public"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 106,
+      "libelles": [
+        {
+          "cellule": "B106",
+          "libelle": "Privé"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 107,
+      "libelles": [
+        {
+          "cellule": "B107",
+          "libelle": "Communautaire"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 108,
+      "libelles": [
+        {
+          "cellule": "A108",
+          "libelle": "Total CENTRE-EST"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 109,
+      "libelles": [
+        {
+          "cellule": "A109",
+          "libelle": "CENTRE-NORD"
+        },
+        {
+          "cellule": "B109",
+          "libelle": "Public"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 110,
+      "libelles": [
+        {
+          "cellule": "B110",
+          "libelle": "Privé"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 111,
+      "libelles": [
+        {
+          "cellule": "B111",
+          "libelle": "Communautaire"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 112,
+      "libelles": [
+        {
+          "cellule": "A112",
+          "libelle": "Total CENTRE-NORD"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 113,
+      "libelles": [
+        {
+          "cellule": "A113",
+          "libelle": "CENTRE-OUEST"
+        },
+        {
+          "cellule": "B113",
+          "libelle": "Public"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 114,
+      "libelles": [
+        {
+          "cellule": "B114",
+          "libelle": "Privé"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 115,
+      "libelles": [
+        {
+          "cellule": "B115",
+          "libelle": "Communautaire"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 116,
+      "libelles": [
+        {
+          "cellule": "A116",
+          "libelle": "Total CENTRE-OUEST"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 117,
+      "libelles": [
+        {
+          "cellule": "A117",
+          "libelle": "CENTRE-SUD"
+        },
+        {
+          "cellule": "B117",
+          "libelle": "Public"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 118,
+      "libelles": [
+        {
+          "cellule": "B118",
+          "libelle": "Privé"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 119,
+      "libelles": [
+        {
+          "cellule": "B119",
+          "libelle": "Communautaire"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 120,
+      "libelles": [
+        {
+          "cellule": "A120",
+          "libelle": "Total CENTRE-SUD"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 121,
+      "libelles": [
+        {
+          "cellule": "A121",
+          "libelle": "EST"
+        },
+        {
+          "cellule": "B121",
+          "libelle": "Public"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 122,
+      "libelles": [
+        {
+          "cellule": "B122",
+          "libelle": "Privé"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 123,
+      "libelles": [
+        {
+          "cellule": "B123",
+          "libelle": "Communautaire"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 124,
+      "libelles": [
+        {
+          "cellule": "A124",
+          "libelle": "Total EST"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 125,
+      "libelles": [
+        {
+          "cellule": "A125",
+          "libelle": "HAUTS-BASSINS"
+        },
+        {
+          "cellule": "B125",
+          "libelle": "Public"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 126,
+      "libelles": [
+        {
+          "cellule": "B126",
+          "libelle": "Privé"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 127,
+      "libelles": [
+        {
+          "cellule": "B127",
+          "libelle": "Communautaire"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 128,
+      "libelles": [
+        {
+          "cellule": "A128",
+          "libelle": "Total HAUTS-BASSINS"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 129,
+      "libelles": [
+        {
+          "cellule": "A129",
+          "libelle": "NORD"
+        },
+        {
+          "cellule": "B129",
+          "libelle": "Public"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 130,
+      "libelles": [
+        {
+          "cellule": "B130",
+          "libelle": "Privé"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 131,
+      "libelles": [
+        {
+          "cellule": "B131",
+          "libelle": "Communautaire"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 132,
+      "libelles": [
+        {
+          "cellule": "A132",
+          "libelle": "Total NORD"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 133,
+      "libelles": [
+        {
+          "cellule": "A133",
+          "libelle": "PLATEAU CENTRAL"
+        },
+        {
+          "cellule": "B133",
+          "libelle": "Public"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 134,
+      "libelles": [
+        {
+          "cellule": "B134",
+          "libelle": "Privé"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 135,
+      "libelles": [
+        {
+          "cellule": "B135",
+          "libelle": "Communautaire"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 136,
+      "libelles": [
+        {
+          "cellule": "A136",
+          "libelle": "Total PLATEAU CENTRAL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 137,
+      "libelles": [
+        {
+          "cellule": "A137",
+          "libelle": "SAHEL"
+        },
+        {
+          "cellule": "B137",
+          "libelle": "Public"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 138,
+      "libelles": [
+        {
+          "cellule": "B138",
+          "libelle": "Privé"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 139,
+      "libelles": [
+        {
+          "cellule": "B139",
+          "libelle": "Communautaire"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 140,
+      "libelles": [
+        {
+          "cellule": "A140",
+          "libelle": "Total SAHEL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 141,
+      "libelles": [
+        {
+          "cellule": "A141",
+          "libelle": "SUD-OUEST"
+        },
+        {
+          "cellule": "B141",
+          "libelle": "Public"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 142,
+      "libelles": [
+        {
+          "cellule": "B142",
+          "libelle": "Privé"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 143,
+      "libelles": [
+        {
+          "cellule": "B143",
+          "libelle": "Communautaire"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 144,
+      "libelles": [
+        {
+          "cellule": "A144",
+          "libelle": "Total SUD-OUEST"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 145,
+      "libelles": [
+        {
+          "cellule": "A145",
+          "libelle": "Total général"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 149,
+      "libelles": [
+        {
+          "cellule": "A149",
+          "libelle": "REGION"
+        },
+        {
+          "cellule": "B149",
+          "libelle": "STATUT"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 150,
+      "libelles": [
+        {
+          "cellule": "A150",
+          "libelle": "BOUCLE DU MOUHOUN"
+        },
+        {
+          "cellule": "B150",
+          "libelle": "Public"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 151,
+      "libelles": [
+        {
+          "cellule": "B151",
+          "libelle": "Privé"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 152,
+      "libelles": [
+        {
+          "cellule": "B152",
+          "libelle": "Communautaire"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 153,
+      "libelles": [
+        {
+          "cellule": "A153",
+          "libelle": "Total BOUCLE DU MOUHOUN"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 154,
+      "libelles": [
+        {
+          "cellule": "A154",
+          "libelle": "CASCADES"
+        },
+        {
+          "cellule": "B154",
+          "libelle": "Public"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 155,
+      "libelles": [
+        {
+          "cellule": "B155",
+          "libelle": "Privé"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 156,
+      "libelles": [
+        {
+          "cellule": "B156",
+          "libelle": "Communautaire"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 157,
+      "libelles": [
+        {
+          "cellule": "A157",
+          "libelle": "Total CASCADES"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 158,
+      "libelles": [
+        {
+          "cellule": "A158",
+          "libelle": "CENTRE"
+        },
+        {
+          "cellule": "B158",
+          "libelle": "Public"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 159,
+      "libelles": [
+        {
+          "cellule": "B159",
+          "libelle": "Privé"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 160,
+      "libelles": [
+        {
+          "cellule": "B160",
+          "libelle": "Communautaire"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 161,
+      "libelles": [
+        {
+          "cellule": "A161",
+          "libelle": "Total CENTRE"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 162,
+      "libelles": [
+        {
+          "cellule": "A162",
+          "libelle": "CENTRE-EST"
+        },
+        {
+          "cellule": "B162",
+          "libelle": "Public"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 163,
+      "libelles": [
+        {
+          "cellule": "B163",
+          "libelle": "Privé"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 164,
+      "libelles": [
+        {
+          "cellule": "B164",
+          "libelle": "Communautaire"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 165,
+      "libelles": [
+        {
+          "cellule": "A165",
+          "libelle": "Total CENTRE-EST"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 166,
+      "libelles": [
+        {
+          "cellule": "A166",
+          "libelle": "CENTRE-NORD"
+        },
+        {
+          "cellule": "B166",
+          "libelle": "Public"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 167,
+      "libelles": [
+        {
+          "cellule": "B167",
+          "libelle": "Privé"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 168,
+      "libelles": [
+        {
+          "cellule": "B168",
+          "libelle": "Communautaire"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 169,
+      "libelles": [
+        {
+          "cellule": "A169",
+          "libelle": "Total CENTRE-NORD"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 170,
+      "libelles": [
+        {
+          "cellule": "A170",
+          "libelle": "CENTRE-OUEST"
+        },
+        {
+          "cellule": "B170",
+          "libelle": "Public"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 171,
+      "libelles": [
+        {
+          "cellule": "B171",
+          "libelle": "Privé"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 172,
+      "libelles": [
+        {
+          "cellule": "B172",
+          "libelle": "Communautaire"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 173,
+      "libelles": [
+        {
+          "cellule": "A173",
+          "libelle": "Total CENTRE-OUEST"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 174,
+      "libelles": [
+        {
+          "cellule": "A174",
+          "libelle": "CENTRE-SUD"
+        },
+        {
+          "cellule": "B174",
+          "libelle": "Public"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 175,
+      "libelles": [
+        {
+          "cellule": "B175",
+          "libelle": "Privé"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 176,
+      "libelles": [
+        {
+          "cellule": "B176",
+          "libelle": "Communautaire"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 177,
+      "libelles": [
+        {
+          "cellule": "A177",
+          "libelle": "Total CENTRE-SUD"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 178,
+      "libelles": [
+        {
+          "cellule": "A178",
+          "libelle": "EST"
+        },
+        {
+          "cellule": "B178",
+          "libelle": "Public"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 179,
+      "libelles": [
+        {
+          "cellule": "B179",
+          "libelle": "Privé"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 180,
+      "libelles": [
+        {
+          "cellule": "B180",
+          "libelle": "Communautaire"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 181,
+      "libelles": [
+        {
+          "cellule": "A181",
+          "libelle": "Total EST"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 182,
+      "libelles": [
+        {
+          "cellule": "A182",
+          "libelle": "HAUTS-BASSINS"
+        },
+        {
+          "cellule": "B182",
+          "libelle": "Public"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 183,
+      "libelles": [
+        {
+          "cellule": "B183",
+          "libelle": "Privé"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 184,
+      "libelles": [
+        {
+          "cellule": "B184",
+          "libelle": "Communautaire"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 185,
+      "libelles": [
+        {
+          "cellule": "A185",
+          "libelle": "Total HAUTS-BASSINS"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 186,
+      "libelles": [
+        {
+          "cellule": "A186",
+          "libelle": "NORD"
+        },
+        {
+          "cellule": "B186",
+          "libelle": "Public"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 187,
+      "libelles": [
+        {
+          "cellule": "B187",
+          "libelle": "Privé"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 188,
+      "libelles": [
+        {
+          "cellule": "B188",
+          "libelle": "Communautaire"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 189,
+      "libelles": [
+        {
+          "cellule": "A189",
+          "libelle": "Total NORD"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 190,
+      "libelles": [
+        {
+          "cellule": "A190",
+          "libelle": "PLATEAU CENTRAL"
+        },
+        {
+          "cellule": "B190",
+          "libelle": "Public"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 191,
+      "libelles": [
+        {
+          "cellule": "B191",
+          "libelle": "Privé"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 192,
+      "libelles": [
+        {
+          "cellule": "B192",
+          "libelle": "Communautaire"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 193,
+      "libelles": [
+        {
+          "cellule": "A193",
+          "libelle": "Total PLATEAU CENTRAL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 194,
+      "libelles": [
+        {
+          "cellule": "A194",
+          "libelle": "SAHEL"
+        },
+        {
+          "cellule": "B194",
+          "libelle": "Public"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 195,
+      "libelles": [
+        {
+          "cellule": "B195",
+          "libelle": "Privé"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 196,
+      "libelles": [
+        {
+          "cellule": "B196",
+          "libelle": "Communautaire"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 197,
+      "libelles": [
+        {
+          "cellule": "A197",
+          "libelle": "Total SAHEL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 198,
+      "libelles": [
+        {
+          "cellule": "A198",
+          "libelle": "SUD-OUEST"
+        },
+        {
+          "cellule": "B198",
+          "libelle": "Public"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 199,
+      "libelles": [
+        {
+          "cellule": "B199",
+          "libelle": "Privé"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 200,
+      "libelles": [
+        {
+          "cellule": "B200",
+          "libelle": "Communautaire"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 201,
+      "libelles": [
+        {
+          "cellule": "A201",
+          "libelle": "Total SUD-OUEST"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 202,
+      "libelles": [
+        {
+          "cellule": "A202",
+          "libelle": "Total général"
+        }
+      ]
+    }
+  ],
+  "Feuil1": [
+    {
+      "numero_ligne": 2,
+      "libelles": [
+        {
+          "cellule": "A2",
+          "libelle": "REGION"
+        },
+        {
+          "cellule": "B2",
+          "libelle": "SEXE"
+        },
+        {
+          "cellule": "C2",
+          "libelle": "2015-2016"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 3,
+      "libelles": [
+        {
+          "cellule": "A3",
+          "libelle": "BOUCLE DU MOUHOUN"
+        },
+        {
+          "cellule": "B3",
+          "libelle": "GARCONS"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 4,
+      "libelles": [
+        {
+          "cellule": "B4",
+          "libelle": "FILLES"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 5,
+      "libelles": [
+        {
+          "cellule": "B5",
+          "libelle": "TOTAL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 6,
+      "libelles": [
+        {
+          "cellule": "A6",
+          "libelle": "CASCADES"
+        },
+        {
+          "cellule": "B6",
+          "libelle": "GARCONS"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 7,
+      "libelles": [
+        {
+          "cellule": "B7",
+          "libelle": "FILLES"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 8,
+      "libelles": [
+        {
+          "cellule": "B8",
+          "libelle": "TOTAL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 9,
+      "libelles": [
+        {
+          "cellule": "A9",
+          "libelle": "CENTRE"
+        },
+        {
+          "cellule": "B9",
+          "libelle": "GARCONS"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 10,
+      "libelles": [
+        {
+          "cellule": "B10",
+          "libelle": "FILLES"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 11,
+      "libelles": [
+        {
+          "cellule": "B11",
+          "libelle": "TOTAL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 12,
+      "libelles": [
+        {
+          "cellule": "A12",
+          "libelle": "CENTRE-EST"
+        },
+        {
+          "cellule": "B12",
+          "libelle": "GARCONS"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 13,
+      "libelles": [
+        {
+          "cellule": "B13",
+          "libelle": "FILLES"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 14,
+      "libelles": [
+        {
+          "cellule": "B14",
+          "libelle": "TOTAL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 15,
+      "libelles": [
+        {
+          "cellule": "A15",
+          "libelle": "CENTRE-NORD"
+        },
+        {
+          "cellule": "B15",
+          "libelle": "GARCONS"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 16,
+      "libelles": [
+        {
+          "cellule": "B16",
+          "libelle": "FILLES"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 17,
+      "libelles": [
+        {
+          "cellule": "B17",
+          "libelle": "TOTAL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 18,
+      "libelles": [
+        {
+          "cellule": "A18",
+          "libelle": "CENTRE-OUEST"
+        },
+        {
+          "cellule": "B18",
+          "libelle": "GARCONS"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 19,
+      "libelles": [
+        {
+          "cellule": "B19",
+          "libelle": "FILLES"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 20,
+      "libelles": [
+        {
+          "cellule": "B20",
+          "libelle": "TOTAL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 21,
+      "libelles": [
+        {
+          "cellule": "A21",
+          "libelle": "CENTRE-SUD"
+        },
+        {
+          "cellule": "B21",
+          "libelle": "GARCONS"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 22,
+      "libelles": [
+        {
+          "cellule": "B22",
+          "libelle": "FILLES"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 23,
+      "libelles": [
+        {
+          "cellule": "B23",
+          "libelle": "TOTAL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 24,
+      "libelles": [
+        {
+          "cellule": "A24",
+          "libelle": "EST"
+        },
+        {
+          "cellule": "B24",
+          "libelle": "GARCONS"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 25,
+      "libelles": [
+        {
+          "cellule": "B25",
+          "libelle": "FILLES"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 26,
+      "libelles": [
+        {
+          "cellule": "B26",
+          "libelle": "TOTAL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 27,
+      "libelles": [
+        {
+          "cellule": "A27",
+          "libelle": "HAUTS-BASSINS"
+        },
+        {
+          "cellule": "B27",
+          "libelle": "GARCONS"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 28,
+      "libelles": [
+        {
+          "cellule": "B28",
+          "libelle": "FILLES"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 29,
+      "libelles": [
+        {
+          "cellule": "B29",
+          "libelle": "TOTAL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 30,
+      "libelles": [
+        {
+          "cellule": "A30",
+          "libelle": "NORD"
+        },
+        {
+          "cellule": "B30",
+          "libelle": "GARCONS"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 31,
+      "libelles": [
+        {
+          "cellule": "B31",
+          "libelle": "FILLES"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 32,
+      "libelles": [
+        {
+          "cellule": "B32",
+          "libelle": "TOTAL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 33,
+      "libelles": [
+        {
+          "cellule": "A33",
+          "libelle": "PLATEAU CENTRAL"
+        },
+        {
+          "cellule": "B33",
+          "libelle": "GARCONS"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 34,
+      "libelles": [
+        {
+          "cellule": "B34",
+          "libelle": "FILLES"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 35,
+      "libelles": [
+        {
+          "cellule": "B35",
+          "libelle": "TOTAL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 36,
+      "libelles": [
+        {
+          "cellule": "A36",
+          "libelle": "SAHEL"
+        },
+        {
+          "cellule": "B36",
+          "libelle": "GARCONS"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 37,
+      "libelles": [
+        {
+          "cellule": "B37",
+          "libelle": "FILLES"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 38,
+      "libelles": [
+        {
+          "cellule": "B38",
+          "libelle": "TOTAL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 39,
+      "libelles": [
+        {
+          "cellule": "A39",
+          "libelle": "SUD-OUEST"
+        },
+        {
+          "cellule": "B39",
+          "libelle": "GARCONS"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 40,
+      "libelles": [
+        {
+          "cellule": "B40",
+          "libelle": "FILLES"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 41,
+      "libelles": [
+        {
+          "cellule": "B41",
+          "libelle": "TOTAL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 42,
+      "libelles": [
+        {
+          "cellule": "A42",
+          "libelle": "NATIONAL"
+        },
+        {
+          "cellule": "B42",
+          "libelle": "GARCONS"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 43,
+      "libelles": [
+        {
+          "cellule": "B43",
+          "libelle": "FILLES"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 44,
+      "libelles": [
+        {
+          "cellule": "B44",
+          "libelle": "TOTAL"
+        }
+      ]
+    }
+  ],
+  "Feuil2": [
+    {
+      "numero_ligne": 2,
+      "libelles": [
+        {
+          "cellule": "A2",
+          "libelle": "STATUT"
+        },
+        {
+          "cellule": "B2",
+          "libelle": "SEXE"
+        },
+        {
+          "cellule": "C2",
+          "libelle": "2015-2016"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 3,
+      "libelles": [
+        {
+          "cellule": "A3",
+          "libelle": "Public"
+        },
+        {
+          "cellule": "B3",
+          "libelle": "GARCONS"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 4,
+      "libelles": [
+        {
+          "cellule": "B4",
+          "libelle": "FILLES"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 5,
+      "libelles": [
+        {
+          "cellule": "B5",
+          "libelle": "TOTAL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 6,
+      "libelles": [
+        {
+          "cellule": "A6",
+          "libelle": "PRIVE"
+        },
+        {
+          "cellule": "B6",
+          "libelle": "GARCONS"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 7,
+      "libelles": [
+        {
+          "cellule": "B7",
+          "libelle": "FILLES"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 8,
+      "libelles": [
+        {
+          "cellule": "B8",
+          "libelle": "TOTAL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 9,
+      "libelles": [
+        {
+          "cellule": "A9",
+          "libelle": "NATIONAL"
+        },
+        {
+          "cellule": "B9",
+          "libelle": "GARCONS"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 10,
+      "libelles": [
+        {
+          "cellule": "B10",
+          "libelle": "FILLES"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 11,
+      "libelles": [
+        {
+          "cellule": "B11",
+          "libelle": "TOTAL"
+        }
+      ]
+    }
+  ],
+  "Feuil3": [
+    {
+      "numero_ligne": 2,
+      "libelles": [
+        {
+          "cellule": "A2",
+          "libelle": "MILIEU"
+        },
+        {
+          "cellule": "B2",
+          "libelle": "SEXE"
+        },
+        {
+          "cellule": "C2",
+          "libelle": "2015-2016"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 3,
+      "libelles": [
+        {
+          "cellule": "A3",
+          "libelle": "URBAIN"
+        },
+        {
+          "cellule": "B3",
+          "libelle": "GARCONS"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 4,
+      "libelles": [
+        {
+          "cellule": "B4",
+          "libelle": "FILLES"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 5,
+      "libelles": [
+        {
+          "cellule": "B5",
+          "libelle": "TOTAL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 6,
+      "libelles": [
+        {
+          "cellule": "A6",
+          "libelle": "RURAL"
+        },
+        {
+          "cellule": "B6",
+          "libelle": "GARCONS"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 7,
+      "libelles": [
+        {
+          "cellule": "B7",
+          "libelle": "FILLES"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 8,
+      "libelles": [
+        {
+          "cellule": "B8",
+          "libelle": "TOTAL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 9,
+      "libelles": [
+        {
+          "cellule": "A9",
+          "libelle": "NATIONAL"
+        },
+        {
+          "cellule": "B9",
+          "libelle": "GARCONS"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 10,
+      "libelles": [
+        {
+          "cellule": "B10",
+          "libelle": "FILLES"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 11,
+      "libelles": [
+        {
+          "cellule": "B11",
+          "libelle": "TOTAL"
+        }
+      ]
+    }
+  ],
+  "Feuil4": [
+    {
+      "numero_ligne": 2,
+      "libelles": [
+        {
+          "cellule": "A2",
+          "libelle": "STATUT"
+        },
+        {
+          "cellule": "B2",
+          "libelle": "NIVEAU"
+        },
+        {
+          "cellule": "C2",
+          "libelle": "SEXE"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 3,
+      "libelles": [
+        {
+          "cellule": "A3",
+          "libelle": "Public"
+        },
+        {
+          "cellule": "B3",
+          "libelle": "CP1"
+        },
+        {
+          "cellule": "C3",
+          "libelle": "GARCONS"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 4,
+      "libelles": [
+        {
+          "cellule": "C4",
+          "libelle": "FILLES"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 5,
+      "libelles": [
+        {
+          "cellule": "C5",
+          "libelle": "TOTAL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 6,
+      "libelles": [
+        {
+          "cellule": "B6",
+          "libelle": "CP2"
+        },
+        {
+          "cellule": "C6",
+          "libelle": "GARCONS"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 7,
+      "libelles": [
+        {
+          "cellule": "C7",
+          "libelle": "FILLES"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 8,
+      "libelles": [
+        {
+          "cellule": "C8",
+          "libelle": "TOTAL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 9,
+      "libelles": [
+        {
+          "cellule": "B9",
+          "libelle": "CE1"
+        },
+        {
+          "cellule": "C9",
+          "libelle": "GARCONS"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 10,
+      "libelles": [
+        {
+          "cellule": "C10",
+          "libelle": "FILLES"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 11,
+      "libelles": [
+        {
+          "cellule": "C11",
+          "libelle": "TOTAL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 12,
+      "libelles": [
+        {
+          "cellule": "B12",
+          "libelle": "CE2"
+        },
+        {
+          "cellule": "C12",
+          "libelle": "GARCONS"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 13,
+      "libelles": [
+        {
+          "cellule": "C13",
+          "libelle": "FILLES"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 14,
+      "libelles": [
+        {
+          "cellule": "C14",
+          "libelle": "TOTAL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 15,
+      "libelles": [
+        {
+          "cellule": "B15",
+          "libelle": "CM1"
+        },
+        {
+          "cellule": "C15",
+          "libelle": "GARCONS"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 16,
+      "libelles": [
+        {
+          "cellule": "C16",
+          "libelle": "FILLES"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 17,
+      "libelles": [
+        {
+          "cellule": "C17",
+          "libelle": "TOTAL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 18,
+      "libelles": [
+        {
+          "cellule": "B18",
+          "libelle": "CM2"
+        },
+        {
+          "cellule": "C18",
+          "libelle": "GARCONS"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 19,
+      "libelles": [
+        {
+          "cellule": "C19",
+          "libelle": "FILLES"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 20,
+      "libelles": [
+        {
+          "cellule": "C20",
+          "libelle": "TOTAL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 21,
+      "libelles": [
+        {
+          "cellule": "B21",
+          "libelle": "TOTAL"
+        },
+        {
+          "cellule": "C21",
+          "libelle": "GARCONS"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 22,
+      "libelles": [
+        {
+          "cellule": "C22",
+          "libelle": "FILLES"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 23,
+      "libelles": [
+        {
+          "cellule": "C23",
+          "libelle": "TOTAL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 24,
+      "libelles": [
+        {
+          "cellule": "A24",
+          "libelle": "PRIVE"
+        },
+        {
+          "cellule": "B24",
+          "libelle": "CP1"
+        },
+        {
+          "cellule": "C24",
+          "libelle": "GARCONS"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 25,
+      "libelles": [
+        {
+          "cellule": "C25",
+          "libelle": "FILLES"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 26,
+      "libelles": [
+        {
+          "cellule": "C26",
+          "libelle": "TOTAL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 27,
+      "libelles": [
+        {
+          "cellule": "B27",
+          "libelle": "CP2"
+        },
+        {
+          "cellule": "C27",
+          "libelle": "GARCONS"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 28,
+      "libelles": [
+        {
+          "cellule": "C28",
+          "libelle": "FILLES"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 29,
+      "libelles": [
+        {
+          "cellule": "C29",
+          "libelle": "TOTAL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 30,
+      "libelles": [
+        {
+          "cellule": "B30",
+          "libelle": "CE1"
+        },
+        {
+          "cellule": "C30",
+          "libelle": "GARCONS"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 31,
+      "libelles": [
+        {
+          "cellule": "C31",
+          "libelle": "FILLES"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 32,
+      "libelles": [
+        {
+          "cellule": "C32",
+          "libelle": "TOTAL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 33,
+      "libelles": [
+        {
+          "cellule": "B33",
+          "libelle": "CE2"
+        },
+        {
+          "cellule": "C33",
+          "libelle": "GARCONS"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 34,
+      "libelles": [
+        {
+          "cellule": "C34",
+          "libelle": "FILLES"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 35,
+      "libelles": [
+        {
+          "cellule": "C35",
+          "libelle": "TOTAL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 36,
+      "libelles": [
+        {
+          "cellule": "B36",
+          "libelle": "CM1"
+        },
+        {
+          "cellule": "C36",
+          "libelle": "GARCONS"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 37,
+      "libelles": [
+        {
+          "cellule": "C37",
+          "libelle": "FILLES"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 38,
+      "libelles": [
+        {
+          "cellule": "C38",
+          "libelle": "TOTAL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 39,
+      "libelles": [
+        {
+          "cellule": "B39",
+          "libelle": "CM2"
+        },
+        {
+          "cellule": "C39",
+          "libelle": "GARCONS"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 40,
+      "libelles": [
+        {
+          "cellule": "C40",
+          "libelle": "FILLES"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 41,
+      "libelles": [
+        {
+          "cellule": "C41",
+          "libelle": "TOTAL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 42,
+      "libelles": [
+        {
+          "cellule": "B42",
+          "libelle": "TOTAL"
+        },
+        {
+          "cellule": "C42",
+          "libelle": "GARCONS"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 43,
+      "libelles": [
+        {
+          "cellule": "C43",
+          "libelle": "FILLES"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 44,
+      "libelles": [
+        {
+          "cellule": "C44",
+          "libelle": "TOTAL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 45,
+      "libelles": [
+        {
+          "cellule": "A45",
+          "libelle": "TOTAL"
+        },
+        {
+          "cellule": "C45",
+          "libelle": "GARCONS"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 46,
+      "libelles": [
+        {
+          "cellule": "C46",
+          "libelle": "FILLES"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 47,
+      "libelles": [
+        {
+          "cellule": "C47",
+          "libelle": "TOTAL"
+        }
+      ]
+    }
+  ],
+  "Feuil5": [
+    {
+      "numero_ligne": 2,
+      "libelles": [
+        {
+          "cellule": "A2",
+          "libelle": "REGION"
+        },
+        {
+          "cellule": "B2",
+          "libelle": "SEXE"
+        },
+        {
+          "cellule": "C2",
+          "libelle": "2015-2016"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 3,
+      "libelles": [
+        {
+          "cellule": "A3",
+          "libelle": "BOUCLE DU MOUHOUN"
+        },
+        {
+          "cellule": "B3",
+          "libelle": "GARCONS"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 4,
+      "libelles": [
+        {
+          "cellule": "B4",
+          "libelle": "FILLES"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 5,
+      "libelles": [
+        {
+          "cellule": "B5",
+          "libelle": "TOTAL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 6,
+      "libelles": [
+        {
+          "cellule": "A6",
+          "libelle": "CASCADES"
+        },
+        {
+          "cellule": "B6",
+          "libelle": "GARCONS"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 7,
+      "libelles": [
+        {
+          "cellule": "B7",
+          "libelle": "FILLES"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 8,
+      "libelles": [
+        {
+          "cellule": "B8",
+          "libelle": "TOTAL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 9,
+      "libelles": [
+        {
+          "cellule": "A9",
+          "libelle": "CENTRE"
+        },
+        {
+          "cellule": "B9",
+          "libelle": "GARCONS"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 10,
+      "libelles": [
+        {
+          "cellule": "B10",
+          "libelle": "FILLES"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 11,
+      "libelles": [
+        {
+          "cellule": "B11",
+          "libelle": "TOTAL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 12,
+      "libelles": [
+        {
+          "cellule": "A12",
+          "libelle": "CENTRE-EST"
+        },
+        {
+          "cellule": "B12",
+          "libelle": "GARCONS"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 13,
+      "libelles": [
+        {
+          "cellule": "B13",
+          "libelle": "FILLES"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 14,
+      "libelles": [
+        {
+          "cellule": "B14",
+          "libelle": "TOTAL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 15,
+      "libelles": [
+        {
+          "cellule": "A15",
+          "libelle": "CENTRE-NORD"
+        },
+        {
+          "cellule": "B15",
+          "libelle": "GARCONS"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 16,
+      "libelles": [
+        {
+          "cellule": "B16",
+          "libelle": "FILLES"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 17,
+      "libelles": [
+        {
+          "cellule": "B17",
+          "libelle": "TOTAL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 18,
+      "libelles": [
+        {
+          "cellule": "A18",
+          "libelle": "CENTRE-OUEST"
+        },
+        {
+          "cellule": "B18",
+          "libelle": "GARCONS"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 19,
+      "libelles": [
+        {
+          "cellule": "B19",
+          "libelle": "FILLES"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 20,
+      "libelles": [
+        {
+          "cellule": "B20",
+          "libelle": "TOTAL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 21,
+      "libelles": [
+        {
+          "cellule": "A21",
+          "libelle": "CENTRE-SUD"
+        },
+        {
+          "cellule": "B21",
+          "libelle": "GARCONS"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 22,
+      "libelles": [
+        {
+          "cellule": "B22",
+          "libelle": "FILLES"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 23,
+      "libelles": [
+        {
+          "cellule": "B23",
+          "libelle": "TOTAL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 24,
+      "libelles": [
+        {
+          "cellule": "A24",
+          "libelle": "EST"
+        },
+        {
+          "cellule": "B24",
+          "libelle": "GARCONS"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 25,
+      "libelles": [
+        {
+          "cellule": "B25",
+          "libelle": "FILLES"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 26,
+      "libelles": [
+        {
+          "cellule": "B26",
+          "libelle": "TOTAL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 27,
+      "libelles": [
+        {
+          "cellule": "A27",
+          "libelle": "HAUTS-BASSINS"
+        },
+        {
+          "cellule": "B27",
+          "libelle": "GARCONS"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 28,
+      "libelles": [
+        {
+          "cellule": "B28",
+          "libelle": "FILLES"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 29,
+      "libelles": [
+        {
+          "cellule": "B29",
+          "libelle": "TOTAL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 30,
+      "libelles": [
+        {
+          "cellule": "A30",
+          "libelle": "NORD"
+        },
+        {
+          "cellule": "B30",
+          "libelle": "GARCONS"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 31,
+      "libelles": [
+        {
+          "cellule": "B31",
+          "libelle": "FILLES"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 32,
+      "libelles": [
+        {
+          "cellule": "B32",
+          "libelle": "TOTAL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 33,
+      "libelles": [
+        {
+          "cellule": "A33",
+          "libelle": "PLATEAU CENTRAL"
+        },
+        {
+          "cellule": "B33",
+          "libelle": "GARCONS"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 34,
+      "libelles": [
+        {
+          "cellule": "B34",
+          "libelle": "FILLES"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 35,
+      "libelles": [
+        {
+          "cellule": "B35",
+          "libelle": "TOTAL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 36,
+      "libelles": [
+        {
+          "cellule": "A36",
+          "libelle": "SAHEL"
+        },
+        {
+          "cellule": "B36",
+          "libelle": "GARCONS"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 37,
+      "libelles": [
+        {
+          "cellule": "B37",
+          "libelle": "FILLES"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 38,
+      "libelles": [
+        {
+          "cellule": "B38",
+          "libelle": "TOTAL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 39,
+      "libelles": [
+        {
+          "cellule": "A39",
+          "libelle": "SUD-OUEST"
+        },
+        {
+          "cellule": "B39",
+          "libelle": "GARCONS"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 40,
+      "libelles": [
+        {
+          "cellule": "B40",
+          "libelle": "FILLES"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 41,
+      "libelles": [
+        {
+          "cellule": "B41",
+          "libelle": "TOTAL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 42,
+      "libelles": [
+        {
+          "cellule": "A42",
+          "libelle": "NATIONAL"
+        },
+        {
+          "cellule": "B42",
+          "libelle": "GARCONS"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 43,
+      "libelles": [
+        {
+          "cellule": "B43",
+          "libelle": "FILLES"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 44,
+      "libelles": [
+        {
+          "cellule": "B44",
+          "libelle": "TOTAL"
+        }
+      ]
+    }
+  ],
+  "Feuil6": [
+    {
+      "numero_ligne": 2,
+      "libelles": [
+        {
+          "cellule": "A2",
+          "libelle": "Régions"
+        },
+        {
+          "cellule": "B2",
+          "libelle": "2015/16"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 3,
+      "libelles": [
+        {
+          "cellule": "B3",
+          "libelle": "G"
+        },
+        {
+          "cellule": "C3",
+          "libelle": "F"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 4,
+      "libelles": [
+        {
+          "cellule": "A4",
+          "libelle": "BOUCLE DU MOUHOUN"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 5,
+      "libelles": [
+        {
+          "cellule": "A5",
+          "libelle": "CASCADES"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 6,
+      "libelles": [
+        {
+          "cellule": "A6",
+          "libelle": "CENTRE"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 7,
+      "libelles": [
+        {
+          "cellule": "A7",
+          "libelle": "CENTRE-EST"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 8,
+      "libelles": [
+        {
+          "cellule": "A8",
+          "libelle": "CENTRE-NORD"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 9,
+      "libelles": [
+        {
+          "cellule": "A9",
+          "libelle": "CENTRE-OUEST"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 10,
+      "libelles": [
+        {
+          "cellule": "A10",
+          "libelle": "CENTRE-SUD"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 11,
+      "libelles": [
+        {
+          "cellule": "A11",
+          "libelle": "EST"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 12,
+      "libelles": [
+        {
+          "cellule": "A12",
+          "libelle": "HAUTS-BASSINS"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 13,
+      "libelles": [
+        {
+          "cellule": "A13",
+          "libelle": "NORD"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 14,
+      "libelles": [
+        {
+          "cellule": "A14",
+          "libelle": "PLATEAU CENTRAL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 15,
+      "libelles": [
+        {
+          "cellule": "A15",
+          "libelle": "SAHEL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 16,
+      "libelles": [
+        {
+          "cellule": "A16",
+          "libelle": "SUD-OUEST"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 17,
+      "libelles": [
+        {
+          "cellule": "A17",
+          "libelle": "Burkina Faso"
+        }
+      ]
+    }
+  ],
+  "Feuil7": [
+    {
+      "numero_ligne": 2,
+      "libelles": [
+        {
+          "cellule": "A2",
+          "libelle": "Régions"
+        },
+        {
+          "cellule": "B2",
+          "libelle": "2015/16"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 3,
+      "libelles": [
+        {
+          "cellule": "B3",
+          "libelle": "G"
+        },
+        {
+          "cellule": "C3",
+          "libelle": "F"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 4,
+      "libelles": [
+        {
+          "cellule": "A4",
+          "libelle": "BOUCLE DU MOUHOUN"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 5,
+      "libelles": [
+        {
+          "cellule": "A5",
+          "libelle": "CASCADES"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 6,
+      "libelles": [
+        {
+          "cellule": "A6",
+          "libelle": "CENTRE"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 7,
+      "libelles": [
+        {
+          "cellule": "A7",
+          "libelle": "CENTRE-EST"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 8,
+      "libelles": [
+        {
+          "cellule": "A8",
+          "libelle": "CENTRE-NORD"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 9,
+      "libelles": [
+        {
+          "cellule": "A9",
+          "libelle": "CENTRE-OUEST"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 10,
+      "libelles": [
+        {
+          "cellule": "A10",
+          "libelle": "CENTRE-SUD"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 11,
+      "libelles": [
+        {
+          "cellule": "A11",
+          "libelle": "EST"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 12,
+      "libelles": [
+        {
+          "cellule": "A12",
+          "libelle": "HAUTS-BASSINS"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 13,
+      "libelles": [
+        {
+          "cellule": "A13",
+          "libelle": "NORD"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 14,
+      "libelles": [
+        {
+          "cellule": "A14",
+          "libelle": "PLATEAU CENTRAL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 15,
+      "libelles": [
+        {
+          "cellule": "A15",
+          "libelle": "SAHEL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 16,
+      "libelles": [
+        {
+          "cellule": "A16",
+          "libelle": "SUD-OUEST"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 17,
+      "libelles": [
+        {
+          "cellule": "A17",
+          "libelle": "Burkina Faso"
+        }
+      ]
+    }
+  ],
+  "Feuil8": [
+    {
+      "numero_ligne": 2,
+      "libelles": [
+        {
+          "cellule": "A2",
+          "libelle": "Régions"
+        },
+        {
+          "cellule": "B2",
+          "libelle": "2015/16"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 3,
+      "libelles": [
+        {
+          "cellule": "B3",
+          "libelle": "G"
+        },
+        {
+          "cellule": "C3",
+          "libelle": "F"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 4,
+      "libelles": [
+        {
+          "cellule": "A4",
+          "libelle": "BOUCLE DU MOUHOUN"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 5,
+      "libelles": [
+        {
+          "cellule": "A5",
+          "libelle": "CASCADES"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 6,
+      "libelles": [
+        {
+          "cellule": "A6",
+          "libelle": "CENTRE"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 7,
+      "libelles": [
+        {
+          "cellule": "A7",
+          "libelle": "CENTRE-EST"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 8,
+      "libelles": [
+        {
+          "cellule": "A8",
+          "libelle": "CENTRE-NORD"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 9,
+      "libelles": [
+        {
+          "cellule": "A9",
+          "libelle": "CENTRE-OUEST"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 10,
+      "libelles": [
+        {
+          "cellule": "A10",
+          "libelle": "CENTRE-SUD"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 11,
+      "libelles": [
+        {
+          "cellule": "A11",
+          "libelle": "EST"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 12,
+      "libelles": [
+        {
+          "cellule": "A12",
+          "libelle": "HAUTS-BASSINS"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 13,
+      "libelles": [
+        {
+          "cellule": "A13",
+          "libelle": "NORD"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 14,
+      "libelles": [
+        {
+          "cellule": "A14",
+          "libelle": "PLATEAU CENTRAL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 15,
+      "libelles": [
+        {
+          "cellule": "A15",
+          "libelle": "SAHEL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 16,
+      "libelles": [
+        {
+          "cellule": "A16",
+          "libelle": "SUD-OUEST"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 17,
+      "libelles": [
+        {
+          "cellule": "A17",
+          "libelle": "Burkina Faso"
+        }
+      ]
+    }
+  ],
+  "Feuil9": [
+    {
+      "numero_ligne": 2,
+      "libelles": [
+        {
+          "cellule": "A2",
+          "libelle": "Région"
+        },
+        {
+          "cellule": "B2",
+          "libelle": "Sexe"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 3,
+      "libelles": [
+        {
+          "cellule": "A3",
+          "libelle": "BOUCLE DU MOUHOUN"
+        },
+        {
+          "cellule": "B3",
+          "libelle": "Garçons"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 4,
+      "libelles": [
+        {
+          "cellule": "B4",
+          "libelle": "Filles"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 5,
+      "libelles": [
+        {
+          "cellule": "B5",
+          "libelle": "Total"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 6,
+      "libelles": [
+        {
+          "cellule": "A6",
+          "libelle": "CASCADES"
+        },
+        {
+          "cellule": "B6",
+          "libelle": "Garçons"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 7,
+      "libelles": [
+        {
+          "cellule": "B7",
+          "libelle": "Filles"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 8,
+      "libelles": [
+        {
+          "cellule": "B8",
+          "libelle": "Total"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 9,
+      "libelles": [
+        {
+          "cellule": "A9",
+          "libelle": "CENTRE"
+        },
+        {
+          "cellule": "B9",
+          "libelle": "Garçons"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 10,
+      "libelles": [
+        {
+          "cellule": "B10",
+          "libelle": "Filles"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 11,
+      "libelles": [
+        {
+          "cellule": "B11",
+          "libelle": "Total"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 12,
+      "libelles": [
+        {
+          "cellule": "A12",
+          "libelle": "CENTRE-EST"
+        },
+        {
+          "cellule": "B12",
+          "libelle": "Garçons"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 13,
+      "libelles": [
+        {
+          "cellule": "B13",
+          "libelle": "Filles"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 14,
+      "libelles": [
+        {
+          "cellule": "B14",
+          "libelle": "Total"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 15,
+      "libelles": [
+        {
+          "cellule": "A15",
+          "libelle": "CENTRE-NORD"
+        },
+        {
+          "cellule": "B15",
+          "libelle": "Garçons"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 16,
+      "libelles": [
+        {
+          "cellule": "B16",
+          "libelle": "Filles"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 17,
+      "libelles": [
+        {
+          "cellule": "B17",
+          "libelle": "Total"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 18,
+      "libelles": [
+        {
+          "cellule": "A18",
+          "libelle": "CENTRE-OUEST"
+        },
+        {
+          "cellule": "B18",
+          "libelle": "Garçons"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 19,
+      "libelles": [
+        {
+          "cellule": "B19",
+          "libelle": "Filles"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 20,
+      "libelles": [
+        {
+          "cellule": "B20",
+          "libelle": "Total"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 21,
+      "libelles": [
+        {
+          "cellule": "A21",
+          "libelle": "CENTRE-SUD"
+        },
+        {
+          "cellule": "B21",
+          "libelle": "Garçons"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 22,
+      "libelles": [
+        {
+          "cellule": "B22",
+          "libelle": "Filles"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 23,
+      "libelles": [
+        {
+          "cellule": "B23",
+          "libelle": "Total"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 24,
+      "libelles": [
+        {
+          "cellule": "A24",
+          "libelle": "EST"
+        },
+        {
+          "cellule": "B24",
+          "libelle": "Garçons"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 25,
+      "libelles": [
+        {
+          "cellule": "B25",
+          "libelle": "Filles"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 26,
+      "libelles": [
+        {
+          "cellule": "B26",
+          "libelle": "Total"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 27,
+      "libelles": [
+        {
+          "cellule": "A27",
+          "libelle": "HAUT-BASSINS"
+        },
+        {
+          "cellule": "B27",
+          "libelle": "Garçons"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 28,
+      "libelles": [
+        {
+          "cellule": "B28",
+          "libelle": "Filles"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 29,
+      "libelles": [
+        {
+          "cellule": "B29",
+          "libelle": "Total"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 30,
+      "libelles": [
+        {
+          "cellule": "A30",
+          "libelle": "NORD"
+        },
+        {
+          "cellule": "B30",
+          "libelle": "Garçons"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 31,
+      "libelles": [
+        {
+          "cellule": "B31",
+          "libelle": "Filles"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 32,
+      "libelles": [
+        {
+          "cellule": "B32",
+          "libelle": "Total"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 33,
+      "libelles": [
+        {
+          "cellule": "A33",
+          "libelle": "PLATEAU CENTRAL"
+        },
+        {
+          "cellule": "B33",
+          "libelle": "Garçons"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 34,
+      "libelles": [
+        {
+          "cellule": "B34",
+          "libelle": "Filles"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 35,
+      "libelles": [
+        {
+          "cellule": "B35",
+          "libelle": "Total"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 36,
+      "libelles": [
+        {
+          "cellule": "A36",
+          "libelle": "SAHEL"
+        },
+        {
+          "cellule": "B36",
+          "libelle": "Garçons"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 37,
+      "libelles": [
+        {
+          "cellule": "B37",
+          "libelle": "Filles"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 38,
+      "libelles": [
+        {
+          "cellule": "B38",
+          "libelle": "Total"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 39,
+      "libelles": [
+        {
+          "cellule": "A39",
+          "libelle": "SUD-OUEST"
+        },
+        {
+          "cellule": "B39",
+          "libelle": "Garçons"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 40,
+      "libelles": [
+        {
+          "cellule": "B40",
+          "libelle": "Filles"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 41,
+      "libelles": [
+        {
+          "cellule": "B41",
+          "libelle": "Total"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 42,
+      "libelles": [
+        {
+          "cellule": "A42",
+          "libelle": "NATIONAL"
+        },
+        {
+          "cellule": "B42",
+          "libelle": "Garçons"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 43,
+      "libelles": [
+        {
+          "cellule": "B43",
+          "libelle": "Filles"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 44,
+      "libelles": [
+        {
+          "cellule": "B44",
+          "libelle": "Total"
+        }
+      ]
+    }
+  ],
+  "Feuil10": [
+    {
+      "numero_ligne": 2,
+      "libelles": [
+        {
+          "cellule": "A2",
+          "libelle": "Régions"
+        },
+        {
+          "cellule": "B2",
+          "libelle": "2015-16"
+        },
+        {
+          "cellule": "C2",
+          "libelle": "2016-17"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 3,
+      "libelles": [
+        {
+          "cellule": "A3",
+          "libelle": "BOUCLE DU MOUHOUN"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 4,
+      "libelles": [
+        {
+          "cellule": "A4",
+          "libelle": "CASCADES"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 5,
+      "libelles": [
+        {
+          "cellule": "A5",
+          "libelle": "CENTRE"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 6,
+      "libelles": [
+        {
+          "cellule": "A6",
+          "libelle": "CENTRE-EST"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 7,
+      "libelles": [
+        {
+          "cellule": "A7",
+          "libelle": "CENTRE-NORD"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 8,
+      "libelles": [
+        {
+          "cellule": "A8",
+          "libelle": "CENTRE-OUEST"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 9,
+      "libelles": [
+        {
+          "cellule": "A9",
+          "libelle": "CENTRE-SUD"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 10,
+      "libelles": [
+        {
+          "cellule": "A10",
+          "libelle": "EST"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 11,
+      "libelles": [
+        {
+          "cellule": "A11",
+          "libelle": "HAUTS-BASSINS"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 12,
+      "libelles": [
+        {
+          "cellule": "A12",
+          "libelle": "NORD"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 13,
+      "libelles": [
+        {
+          "cellule": "A13",
+          "libelle": "PLATEAU CENTRAL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 14,
+      "libelles": [
+        {
+          "cellule": "A14",
+          "libelle": "SAHEL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 15,
+      "libelles": [
+        {
+          "cellule": "A15",
+          "libelle": "SUD-OUEST"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 16,
+      "libelles": [
+        {
+          "cellule": "A16",
+          "libelle": "Burkina Faso"
+        }
+      ]
+    }
+  ],
+  "Feuil11": [
+    {
+      "numero_ligne": 2,
+      "libelles": [
+        {
+          "cellule": "A2",
+          "libelle": "Régions"
+        },
+        {
+          "cellule": "B2",
+          "libelle": "2015-16"
+        },
+        {
+          "cellule": "C2",
+          "libelle": "2016-17"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 3,
+      "libelles": [
+        {
+          "cellule": "A3",
+          "libelle": "BOUCLE DU MOUHOUN"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 4,
+      "libelles": [
+        {
+          "cellule": "A4",
+          "libelle": "CASCADES"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 5,
+      "libelles": [
+        {
+          "cellule": "A5",
+          "libelle": "CENTRE"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 6,
+      "libelles": [
+        {
+          "cellule": "A6",
+          "libelle": "CENTRE-EST"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 7,
+      "libelles": [
+        {
+          "cellule": "A7",
+          "libelle": "CENTRE-NORD"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 8,
+      "libelles": [
+        {
+          "cellule": "A8",
+          "libelle": "CENTRE-OUEST"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 9,
+      "libelles": [
+        {
+          "cellule": "A9",
+          "libelle": "CENTRE-SUD"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 10,
+      "libelles": [
+        {
+          "cellule": "A10",
+          "libelle": "EST"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 11,
+      "libelles": [
+        {
+          "cellule": "A11",
+          "libelle": "HAUTS-BASSINS"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 12,
+      "libelles": [
+        {
+          "cellule": "A12",
+          "libelle": "NORD"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 13,
+      "libelles": [
+        {
+          "cellule": "A13",
+          "libelle": "PLATEAU CENTRAL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 14,
+      "libelles": [
+        {
+          "cellule": "A14",
+          "libelle": "SAHEL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 15,
+      "libelles": [
+        {
+          "cellule": "A15",
+          "libelle": "SUD-OUEST"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 16,
+      "libelles": [
+        {
+          "cellule": "A16",
+          "libelle": "Burkina Faso"
+        }
+      ]
+    }
+  ],
+  "Feuil12": [
+    {
+      "numero_ligne": 1,
+      "libelles": [
+        {
+          "cellule": "A1",
+          "libelle": "Tableau 12: Évolution de l’IPS du TAP de 2015/2016 à 2024/2025 par région"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 2,
+      "libelles": [
+        {
+          "cellule": "A2",
+          "libelle": "Régions"
+        },
+        {
+          "cellule": "B2",
+          "libelle": "2015-16"
+        },
+        {
+          "cellule": "C2",
+          "libelle": "2016-17"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 3,
+      "libelles": [
+        {
+          "cellule": "A3",
+          "libelle": "BOUCLE DU MOUHOUN"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 4,
+      "libelles": [
+        {
+          "cellule": "A4",
+          "libelle": "CASCADES"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 5,
+      "libelles": [
+        {
+          "cellule": "A5",
+          "libelle": "CENTRE"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 6,
+      "libelles": [
+        {
+          "cellule": "A6",
+          "libelle": "CENTRE-EST"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 7,
+      "libelles": [
+        {
+          "cellule": "A7",
+          "libelle": "CENTRE-NORD"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 8,
+      "libelles": [
+        {
+          "cellule": "A8",
+          "libelle": "CENTRE-OUEST"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 9,
+      "libelles": [
+        {
+          "cellule": "A9",
+          "libelle": "CENTRE-SUD"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 10,
+      "libelles": [
+        {
+          "cellule": "A10",
+          "libelle": "EST"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 11,
+      "libelles": [
+        {
+          "cellule": "A11",
+          "libelle": "HAUTS-BASSINS"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 12,
+      "libelles": [
+        {
+          "cellule": "A12",
+          "libelle": "NORD"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 13,
+      "libelles": [
+        {
+          "cellule": "A13",
+          "libelle": "PLATEAU CENTRAL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 14,
+      "libelles": [
+        {
+          "cellule": "A14",
+          "libelle": "SAHEL"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 15,
+      "libelles": [
+        {
+          "cellule": "A15",
+          "libelle": "SUD-OUEST"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 16,
+      "libelles": [
+        {
+          "cellule": "A16",
+          "libelle": "Burkina Faso"
+        }
+      ]
+    }
+  ],
+  "Feuil13": [
+    {
+      "numero_ligne": 2,
+      "libelles": [
+        {
+          "cellule": "A2",
+          "libelle": "REGION"
+        },
+        {
+          "cellule": "B2",
+          "libelle": "STATUT"
+        },
+        {
+          "cellule": "C2",
+          "libelle": "2015/2016"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 3,
+      "libelles": [
+        {
+          "cellule": "A3",
+          "libelle": "BOUCLE DU MOUHOUN"
+        },
+        {
+          "cellule": "B3",
+          "libelle": "Public"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 4,
+      "libelles": [
+        {
+          "cellule": "B4",
+          "libelle": "Privé"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 5,
+      "libelles": [
+        {
+          "cellule": "B5",
+          "libelle": "Total"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 6,
+      "libelles": [
+        {
+          "cellule": "A6",
+          "libelle": "CASCADES"
+        },
+        {
+          "cellule": "B6",
+          "libelle": "Public"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 7,
+      "libelles": [
+        {
+          "cellule": "B7",
+          "libelle": "Privé"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 8,
+      "libelles": [
+        {
+          "cellule": "B8",
+          "libelle": "Total"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 9,
+      "libelles": [
+        {
+          "cellule": "A9",
+          "libelle": "CENTRE"
+        },
+        {
+          "cellule": "B9",
+          "libelle": "Public"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 10,
+      "libelles": [
+        {
+          "cellule": "B10",
+          "libelle": "Privé"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 11,
+      "libelles": [
+        {
+          "cellule": "B11",
+          "libelle": "Total"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 12,
+      "libelles": [
+        {
+          "cellule": "A12",
+          "libelle": "CENTRE-EST"
+        },
+        {
+          "cellule": "B12",
+          "libelle": "Public"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 13,
+      "libelles": [
+        {
+          "cellule": "B13",
+          "libelle": "Privé"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 14,
+      "libelles": [
+        {
+          "cellule": "B14",
+          "libelle": "Total"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 15,
+      "libelles": [
+        {
+          "cellule": "A15",
+          "libelle": "CENTRE-NORD"
+        },
+        {
+          "cellule": "B15",
+          "libelle": "Public"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 16,
+      "libelles": [
+        {
+          "cellule": "B16",
+          "libelle": "Privé"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 17,
+      "libelles": [
+        {
+          "cellule": "B17",
+          "libelle": "Total"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 18,
+      "libelles": [
+        {
+          "cellule": "A18",
+          "libelle": "CENTRE-OUEST"
+        },
+        {
+          "cellule": "B18",
+          "libelle": "Public"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 19,
+      "libelles": [
+        {
+          "cellule": "B19",
+          "libelle": "Privé"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 20,
+      "libelles": [
+        {
+          "cellule": "B20",
+          "libelle": "Total"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 21,
+      "libelles": [
+        {
+          "cellule": "A21",
+          "libelle": "CENTRE-SUD"
+        },
+        {
+          "cellule": "B21",
+          "libelle": "Public"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 22,
+      "libelles": [
+        {
+          "cellule": "B22",
+          "libelle": "Privé"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 23,
+      "libelles": [
+        {
+          "cellule": "B23",
+          "libelle": "Total"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 24,
+      "libelles": [
+        {
+          "cellule": "A24",
+          "libelle": "EST"
+        },
+        {
+          "cellule": "B24",
+          "libelle": "Public"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 25,
+      "libelles": [
+        {
+          "cellule": "B25",
+          "libelle": "Privé"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 26,
+      "libelles": [
+        {
+          "cellule": "B26",
+          "libelle": "Total"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 27,
+      "libelles": [
+        {
+          "cellule": "A27",
+          "libelle": "HAUT-BASSINS"
+        },
+        {
+          "cellule": "B27",
+          "libelle": "Public"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 28,
+      "libelles": [
+        {
+          "cellule": "B28",
+          "libelle": "Privé"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 29,
+      "libelles": [
+        {
+          "cellule": "B29",
+          "libelle": "Total"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 30,
+      "libelles": [
+        {
+          "cellule": "A30",
+          "libelle": "NORD"
+        },
+        {
+          "cellule": "B30",
+          "libelle": "Public"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 31,
+      "libelles": [
+        {
+          "cellule": "B31",
+          "libelle": "Privé"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 32,
+      "libelles": [
+        {
+          "cellule": "B32",
+          "libelle": "Total"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 33,
+      "libelles": [
+        {
+          "cellule": "A33",
+          "libelle": "PLATEAU CENTRAL"
+        },
+        {
+          "cellule": "B33",
+          "libelle": "Public"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 34,
+      "libelles": [
+        {
+          "cellule": "B34",
+          "libelle": "Privé"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 35,
+      "libelles": [
+        {
+          "cellule": "B35",
+          "libelle": "Total"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 36,
+      "libelles": [
+        {
+          "cellule": "A36",
+          "libelle": "SAHEL"
+        },
+        {
+          "cellule": "B36",
+          "libelle": "Public"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 37,
+      "libelles": [
+        {
+          "cellule": "B37",
+          "libelle": "Privé"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 38,
+      "libelles": [
+        {
+          "cellule": "B38",
+          "libelle": "Total"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 39,
+      "libelles": [
+        {
+          "cellule": "A39",
+          "libelle": "SUD-OUEST"
+        },
+        {
+          "cellule": "B39",
+          "libelle": "Public"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 40,
+      "libelles": [
+        {
+          "cellule": "B40",
+          "libelle": "Privé"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 41,
+      "libelles": [
+        {
+          "cellule": "B41",
+          "libelle": "Total"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 42,
+      "libelles": [
+        {
+          "cellule": "A42",
+          "libelle": "NATIONAL"
+        },
+        {
+          "cellule": "B42",
+          "libelle": "Public"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 43,
+      "libelles": [
+        {
+          "cellule": "B43",
+          "libelle": "Privé"
+        }
+      ]
+    },
+    {
+      "numero_ligne": 44,
+      "libelles": [
+        {
+          "cellule": "B44",
+          "libelle": "Total"
+        }
+      ]
+    }
+  ]
+}

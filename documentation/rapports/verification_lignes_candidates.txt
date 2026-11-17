@@ -1,0 +1,326 @@
+VERIFICATION DES LIGNES CANDIDATES
+Libelles uniquement - aucune valeur statistique
+
+
+===== PRESCOLAIRE =====
+Ligne 4 [REGION] : BOUCLE DU MOUHOUN
+Ligne 5 [REGION] : CASCADES
+Ligne 6 [REGION] : CENTRE
+Ligne 7 [REGION] : CENTRE-EST
+Ligne 8 [REGION] : CENTRE-NORD
+Ligne 9 [REGION] : CENTRE-OUEST
+Ligne 10 [REGION] : CENTRE-SUD
+Ligne 11 [REGION] : EST
+Ligne 12 [REGION] : HAUTS-BASSINS
+Ligne 13 [REGION] : NORD
+Ligne 14 [REGION] : PLATEAU CENTRAL
+Ligne 15 [REGION] : SAHEL
+Ligne 16 [REGION] : SUD-OUEST
+Ligne 17 [TOTAL] : Total général
+Ligne 25 [TOTAL] : Total général
+Ligne 33 [TOTAL] : Total général
+Ligne 51 [TOTAL] : Total général
+Ligne 57 [REGION] : BOUCLE DU MOUHOUN
+Ligne 58 [REGION] : CASCADES
+Ligne 59 [REGION] : CENTRE
+Ligne 60 [REGION] : CENTRE-EST
+Ligne 61 [REGION] : CENTRE-NORD
+Ligne 62 [REGION] : CENTRE-OUEST
+Ligne 63 [REGION] : CENTRE-SUD
+Ligne 64 [REGION] : EST
+Ligne 65 [REGION] : HAUTS-BASSINS
+Ligne 66 [REGION] : NORD
+Ligne 67 [REGION] : PLATEAU CENTRAL
+Ligne 68 [REGION] : SAHEL
+Ligne 69 [REGION] : SUD-OUEST
+Ligne 70 [TOTAL] : Total général
+Ligne 75 [REGION] : BOUCLE DU MOUHOUN
+Ligne 76 [REGION] : CASCADES
+Ligne 77 [REGION] : CENTRE
+Ligne 78 [REGION] : CENTRE-EST
+Ligne 79 [REGION] : CENTRE-NORD
+Ligne 80 [REGION] : CENTRE-OUEST
+Ligne 81 [REGION] : CENTRE-SUD
+Ligne 82 [REGION] : EST
+Ligne 83 [REGION] : HAUTS-BASSINS
+Ligne 84 [REGION] : NORD
+Ligne 85 [REGION] : PLATEAU CENTRAL
+Ligne 86 [REGION] : SAHEL
+Ligne 87 [REGION] : SUD-OUEST
+Ligne 88 [TOTAL] : Total général
+Ligne 93 [REGION] : BOUCLE DU MOUHOUN | Public
+Ligne 97 [REGION] : CASCADES | Public
+Ligne 101 [REGION] : CENTRE | Public
+Ligne 105 [REGION] : CENTRE-EST | Public
+Ligne 109 [REGION] : CENTRE-NORD | Public
+Ligne 113 [REGION] : CENTRE-OUEST | Public
+Ligne 117 [REGION] : CENTRE-SUD | Public
+Ligne 121 [REGION] : EST | Public
+Ligne 125 [REGION] : HAUTS-BASSINS | Public
+Ligne 129 [REGION] : NORD | Public
+Ligne 133 [REGION] : PLATEAU CENTRAL | Public
+Ligne 137 [REGION] : SAHEL | Public
+Ligne 141 [REGION] : SUD-OUEST | Public
+Ligne 145 [TOTAL] : Total général
+Ligne 150 [REGION] : BOUCLE DU MOUHOUN | Public
+Ligne 154 [REGION] : CASCADES | Public
+Ligne 158 [REGION] : CENTRE | Public
+Ligne 162 [REGION] : CENTRE-EST | Public
+Ligne 166 [REGION] : CENTRE-NORD | Public
+Ligne 170 [REGION] : CENTRE-OUEST | Public
+Ligne 174 [REGION] : CENTRE-SUD | Public
+Ligne 178 [REGION] : EST | Public
+Ligne 182 [REGION] : HAUTS-BASSINS | Public
+Ligne 186 [REGION] : NORD | Public
+Ligne 190 [REGION] : PLATEAU CENTRAL | Public
+Ligne 194 [REGION] : SAHEL | Public
+Ligne 198 [REGION] : SUD-OUEST | Public
+Ligne 202 [TOTAL] : Total général
+
+===== Feuil1 =====
+Ligne 3 [REGION] : BOUCLE DU MOUHOUN | GARCONS
+Ligne 5 [TOTAL] : TOTAL
+Ligne 6 [REGION] : CASCADES | GARCONS
+Ligne 8 [TOTAL] : TOTAL
+Ligne 9 [REGION] : CENTRE | GARCONS
+Ligne 11 [TOTAL] : TOTAL
+Ligne 12 [REGION] : CENTRE-EST | GARCONS
+Ligne 14 [TOTAL] : TOTAL
+Ligne 15 [REGION] : CENTRE-NORD | GARCONS
+Ligne 17 [TOTAL] : TOTAL
+Ligne 18 [REGION] : CENTRE-OUEST | GARCONS
+Ligne 20 [TOTAL] : TOTAL
+Ligne 21 [REGION] : CENTRE-SUD | GARCONS
+Ligne 23 [TOTAL] : TOTAL
+Ligne 24 [REGION] : EST | GARCONS
+Ligne 26 [TOTAL] : TOTAL
+Ligne 27 [REGION] : HAUTS-BASSINS | GARCONS
+Ligne 29 [TOTAL] : TOTAL
+Ligne 30 [REGION] : NORD | GARCONS
+Ligne 32 [TOTAL] : TOTAL
+Ligne 33 [REGION] : PLATEAU CENTRAL | GARCONS
+Ligne 35 [TOTAL] : TOTAL
+Ligne 36 [REGION] : SAHEL | GARCONS
+Ligne 38 [TOTAL] : TOTAL
+Ligne 39 [REGION] : SUD-OUEST | GARCONS
+Ligne 41 [TOTAL] : TOTAL
+Ligne 42 [NATIONAL] : NATIONAL | GARCONS
+Ligne 44 [TOTAL] : TOTAL
+
+===== Feuil2 =====
+Ligne 5 [TOTAL] : TOTAL
+Ligne 8 [TOTAL] : TOTAL
+Ligne 9 [NATIONAL] : NATIONAL | GARCONS
+Ligne 11 [TOTAL] : TOTAL
+
+===== Feuil3 =====
+Ligne 5 [TOTAL] : TOTAL
+Ligne 8 [TOTAL] : TOTAL
+Ligne 9 [NATIONAL] : NATIONAL | GARCONS
+Ligne 11 [TOTAL] : TOTAL
+
+===== Feuil4 =====
+Ligne 5 [TOTAL] : TOTAL
+Ligne 8 [TOTAL] : TOTAL
+Ligne 11 [TOTAL] : TOTAL
+Ligne 14 [TOTAL] : TOTAL
+Ligne 17 [TOTAL] : TOTAL
+Ligne 20 [TOTAL] : TOTAL
+Ligne 21 [TOTAL] : TOTAL | GARCONS
+Ligne 23 [TOTAL] : TOTAL
+Ligne 26 [TOTAL] : TOTAL
+Ligne 29 [TOTAL] : TOTAL
+Ligne 32 [TOTAL] : TOTAL
+Ligne 35 [TOTAL] : TOTAL
+Ligne 38 [TOTAL] : TOTAL
+Ligne 41 [TOTAL] : TOTAL
+Ligne 42 [TOTAL] : TOTAL | GARCONS
+Ligne 44 [TOTAL] : TOTAL
+Ligne 45 [TOTAL] : TOTAL | GARCONS
+Ligne 47 [TOTAL] : TOTAL
+
+===== Feuil5 =====
+Ligne 3 [REGION] : BOUCLE DU MOUHOUN | GARCONS
+Ligne 5 [TOTAL] : TOTAL
+Ligne 6 [REGION] : CASCADES | GARCONS
+Ligne 8 [TOTAL] : TOTAL
+Ligne 9 [REGION] : CENTRE | GARCONS
+Ligne 11 [TOTAL] : TOTAL
+Ligne 12 [REGION] : CENTRE-EST | GARCONS
+Ligne 14 [TOTAL] : TOTAL
+Ligne 15 [REGION] : CENTRE-NORD | GARCONS
+Ligne 17 [TOTAL] : TOTAL
+Ligne 18 [REGION] : CENTRE-OUEST | GARCONS
+Ligne 20 [TOTAL] : TOTAL
+Ligne 21 [REGION] : CENTRE-SUD | GARCONS
+Ligne 23 [TOTAL] : TOTAL
+Ligne 24 [REGION] : EST | GARCONS
+Ligne 26 [TOTAL] : TOTAL
+Ligne 27 [REGION] : HAUTS-BASSINS | GARCONS
+Ligne 29 [TOTAL] : TOTAL
+Ligne 30 [REGION] : NORD | GARCONS
+Ligne 32 [TOTAL] : TOTAL
+Ligne 33 [REGION] : PLATEAU CENTRAL | GARCONS
+Ligne 35 [TOTAL] : TOTAL
+Ligne 36 [REGION] : SAHEL | GARCONS
+Ligne 38 [TOTAL] : TOTAL
+Ligne 39 [REGION] : SUD-OUEST | GARCONS
+Ligne 41 [TOTAL] : TOTAL
+Ligne 42 [NATIONAL] : NATIONAL | GARCONS
+Ligne 44 [TOTAL] : TOTAL
+
+===== Feuil6 =====
+Ligne 4 [REGION] : BOUCLE DU MOUHOUN
+Ligne 5 [REGION] : CASCADES
+Ligne 6 [REGION] : CENTRE
+Ligne 7 [REGION] : CENTRE-EST
+Ligne 8 [REGION] : CENTRE-NORD
+Ligne 9 [REGION] : CENTRE-OUEST
+Ligne 10 [REGION] : CENTRE-SUD
+Ligne 11 [REGION] : EST
+Ligne 12 [REGION] : HAUTS-BASSINS
+Ligne 13 [REGION] : NORD
+Ligne 14 [REGION] : PLATEAU CENTRAL
+Ligne 15 [REGION] : SAHEL
+Ligne 16 [REGION] : SUD-OUEST
+Ligne 17 [NATIONAL] : Burkina Faso
+
+===== Feuil7 =====
+Ligne 4 [REGION] : BOUCLE DU MOUHOUN
+Ligne 5 [REGION] : CASCADES
+Ligne 6 [REGION] : CENTRE
+Ligne 7 [REGION] : CENTRE-EST
+Ligne 8 [REGION] : CENTRE-NORD
+Ligne 9 [REGION] : CENTRE-OUEST
+Ligne 10 [REGION] : CENTRE-SUD
+Ligne 11 [REGION] : EST
+Ligne 12 [REGION] : HAUTS-BASSINS
+Ligne 13 [REGION] : NORD
+Ligne 14 [REGION] : PLATEAU CENTRAL
+Ligne 15 [REGION] : SAHEL
+Ligne 16 [REGION] : SUD-OUEST
+Ligne 17 [NATIONAL] : Burkina Faso
+
+===== Feuil8 =====
+Ligne 4 [REGION] : BOUCLE DU MOUHOUN
+Ligne 5 [REGION] : CASCADES
+Ligne 6 [REGION] : CENTRE
+Ligne 7 [REGION] : CENTRE-EST
+Ligne 8 [REGION] : CENTRE-NORD
+Ligne 9 [REGION] : CENTRE-OUEST
+Ligne 10 [REGION] : CENTRE-SUD
+Ligne 11 [REGION] : EST
+Ligne 12 [REGION] : HAUTS-BASSINS
+Ligne 13 [REGION] : NORD
+Ligne 14 [REGION] : PLATEAU CENTRAL
+Ligne 15 [REGION] : SAHEL
+Ligne 16 [REGION] : SUD-OUEST
+Ligne 17 [NATIONAL] : Burkina Faso
+
+===== Feuil9 =====
+Ligne 3 [REGION] : BOUCLE DU MOUHOUN | Garçons
+Ligne 5 [TOTAL] : Total
+Ligne 6 [REGION] : CASCADES | Garçons
+Ligne 8 [TOTAL] : Total
+Ligne 9 [REGION] : CENTRE | Garçons
+Ligne 11 [TOTAL] : Total
+Ligne 12 [REGION] : CENTRE-EST | Garçons
+Ligne 14 [TOTAL] : Total
+Ligne 15 [REGION] : CENTRE-NORD | Garçons
+Ligne 17 [TOTAL] : Total
+Ligne 18 [REGION] : CENTRE-OUEST | Garçons
+Ligne 20 [TOTAL] : Total
+Ligne 21 [REGION] : CENTRE-SUD | Garçons
+Ligne 23 [TOTAL] : Total
+Ligne 24 [REGION] : EST | Garçons
+Ligne 26 [TOTAL] : Total
+Ligne 27 [REGION] : HAUT-BASSINS | Garçons
+Ligne 29 [TOTAL] : Total
+Ligne 30 [REGION] : NORD | Garçons
+Ligne 32 [TOTAL] : Total
+Ligne 33 [REGION] : PLATEAU CENTRAL | Garçons
+Ligne 35 [TOTAL] : Total
+Ligne 36 [REGION] : SAHEL | Garçons
+Ligne 38 [TOTAL] : Total
+Ligne 39 [REGION] : SUD-OUEST | Garçons
+Ligne 41 [TOTAL] : Total
+Ligne 42 [NATIONAL] : NATIONAL | Garçons
+Ligne 44 [TOTAL] : Total
+
+===== Feuil10 =====
+Ligne 3 [REGION] : BOUCLE DU MOUHOUN
+Ligne 4 [REGION] : CASCADES
+Ligne 5 [REGION] : CENTRE
+Ligne 6 [REGION] : CENTRE-EST
+Ligne 7 [REGION] : CENTRE-NORD
+Ligne 8 [REGION] : CENTRE-OUEST
+Ligne 9 [REGION] : CENTRE-SUD
+Ligne 10 [REGION] : EST
+Ligne 11 [REGION] : HAUTS-BASSINS
+Ligne 12 [REGION] : NORD
+Ligne 13 [REGION] : PLATEAU CENTRAL
+Ligne 14 [REGION] : SAHEL
+Ligne 15 [REGION] : SUD-OUEST
+Ligne 16 [NATIONAL] : Burkina Faso
+
+===== Feuil11 =====
+Ligne 3 [REGION] : BOUCLE DU MOUHOUN
+Ligne 4 [REGION] : CASCADES
+Ligne 5 [REGION] : CENTRE
+Ligne 6 [REGION] : CENTRE-EST
+Ligne 7 [REGION] : CENTRE-NORD
+Ligne 8 [REGION] : CENTRE-OUEST
+Ligne 9 [REGION] : CENTRE-SUD
+Ligne 10 [REGION] : EST
+Ligne 11 [REGION] : HAUTS-BASSINS
+Ligne 12 [REGION] : NORD
+Ligne 13 [REGION] : PLATEAU CENTRAL
+Ligne 14 [REGION] : SAHEL
+Ligne 15 [REGION] : SUD-OUEST
+Ligne 16 [NATIONAL] : Burkina Faso
+
+===== Feuil12 =====
+Ligne 3 [REGION] : BOUCLE DU MOUHOUN
+Ligne 4 [REGION] : CASCADES
+Ligne 5 [REGION] : CENTRE
+Ligne 6 [REGION] : CENTRE-EST
+Ligne 7 [REGION] : CENTRE-NORD
+Ligne 8 [REGION] : CENTRE-OUEST
+Ligne 9 [REGION] : CENTRE-SUD
+Ligne 10 [REGION] : EST
+Ligne 11 [REGION] : HAUTS-BASSINS
+Ligne 12 [REGION] : NORD
+Ligne 13 [REGION] : PLATEAU CENTRAL
+Ligne 14 [REGION] : SAHEL
+Ligne 15 [REGION] : SUD-OUEST
+Ligne 16 [NATIONAL] : Burkina Faso
+
+===== Feuil13 =====
+Ligne 3 [REGION] : BOUCLE DU MOUHOUN | Public
+Ligne 5 [TOTAL] : Total
+Ligne 6 [REGION] : CASCADES | Public
+Ligne 8 [TOTAL] : Total
+Ligne 9 [REGION] : CENTRE | Public
+Ligne 11 [TOTAL] : Total
+Ligne 12 [REGION] : CENTRE-EST | Public
+Ligne 14 [TOTAL] : Total
+Ligne 15 [REGION] : CENTRE-NORD | Public
+Ligne 17 [TOTAL] : Total
+Ligne 18 [REGION] : CENTRE-OUEST | Public
+Ligne 20 [TOTAL] : Total
+Ligne 21 [REGION] : CENTRE-SUD | Public
+Ligne 23 [TOTAL] : Total
+Ligne 24 [REGION] : EST | Public
+Ligne 26 [TOTAL] : Total
+Ligne 27 [REGION] : HAUT-BASSINS | Public
+Ligne 29 [TOTAL] : Total
+Ligne 30 [REGION] : NORD | Public
+Ligne 32 [TOTAL] : Total
+Ligne 33 [REGION] : PLATEAU CENTRAL | Public
+Ligne 35 [TOTAL] : Total
+Ligne 36 [REGION] : SAHEL | Public
+Ligne 38 [TOTAL] : Total
+Ligne 39 [REGION] : SUD-OUEST | Public
+Ligne 41 [TOTAL] : Total
+Ligne 42 [NATIONAL] : NATIONAL | Public
+Ligne 44 [TOTAL] : Total

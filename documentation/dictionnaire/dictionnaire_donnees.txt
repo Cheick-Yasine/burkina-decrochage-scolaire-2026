@@ -1,0 +1,131 @@
+DICTIONNAIRE DE DONNEES
+Projet : Cartographie du risque de decrochage scolaire
+
+Attention : les lignes candidates doivent etre verifiees
+avant toute transformation ou suppression de donnees.
+
+FEUILLE : PRESCOLAIRE
+Indicateur : Effectifs du préscolaire
+Dimensions : Région, Sexe, Statut, Milieu, Niveau
+Periode : A confirmer
+Lignes avec libelles : 182
+Lignes regionales candidates : 65
+Lignes nationales candidates : 0
+Lignes de totaux candidates : 8
+
+FEUILLE : Feuil1
+Indicateur : Effectifs du primaire
+Dimensions : Région, Sexe
+Periode : 2015-2016
+Lignes avec libelles : 43
+Lignes regionales candidates : 13
+Lignes nationales candidates : 1
+Lignes de totaux candidates : 14
+
+FEUILLE : Feuil2
+Indicateur : Effectifs par statut
+Dimensions : Statut public/privé, Sexe
+Periode : 2015-2016
+Lignes avec libelles : 10
+Lignes regionales candidates : 0
+Lignes nationales candidates : 1
+Lignes de totaux candidates : 3
+
+FEUILLE : Feuil3
+Indicateur : Effectifs par milieu
+Dimensions : Milieu urbain/rural, Sexe
+Periode : 2015-2016
+Lignes avec libelles : 10
+Lignes regionales candidates : 0
+Lignes nationales candidates : 1
+Lignes de totaux candidates : 3
+
+FEUILLE : Feuil4
+Indicateur : Effectifs par niveau scolaire
+Dimensions : Niveau, Sexe, Statut
+Periode : A confirmer
+Lignes avec libelles : 46
+Lignes regionales candidates : 0
+Lignes nationales candidates : 0
+Lignes de totaux candidates : 18
+
+FEUILLE : Feuil5
+Indicateur : Nouveaux entrants au CP1
+Dimensions : Région, Sexe
+Periode : 2015-2016
+Lignes avec libelles : 43
+Lignes regionales candidates : 13
+Lignes nationales candidates : 1
+Lignes de totaux candidates : 14
+
+FEUILLE : Feuil6
+Indicateur : Taux brut d'admission (TBA)
+Dimensions : Région, Sexe
+Periode : 2015/16
+Lignes avec libelles : 16
+Lignes regionales candidates : 13
+Lignes nationales candidates : 1
+Lignes de totaux candidates : 0
+
+FEUILLE : Feuil7
+Indicateur : Taux brut de scolarisation (TBS)
+Dimensions : Région, Sexe
+Periode : 2015/16
+Lignes avec libelles : 16
+Lignes regionales candidates : 13
+Lignes nationales candidates : 1
+Lignes de totaux candidates : 0
+
+FEUILLE : Feuil8
+Indicateur : Taux d'achèvement du primaire (TAP)
+Dimensions : Région, Sexe
+Periode : 2015/16
+Lignes avec libelles : 16
+Lignes regionales candidates : 13
+Lignes nationales candidates : 1
+Lignes de totaux candidates : 0
+
+FEUILLE : Feuil9
+Indicateur : Taux de réussite au CEP
+Dimensions : Région, Sexe
+Periode : 2016 à 2025 (en-têtes numériques)
+Lignes avec libelles : 43
+Lignes regionales candidates : 13
+Lignes nationales candidates : 1
+Lignes de totaux candidates : 14
+
+FEUILLE : Feuil10
+Indicateur : Indice de parité du TBA
+Dimensions : Région
+Periode : 2015-16, 2016-17
+Lignes avec libelles : 15
+Lignes regionales candidates : 13
+Lignes nationales candidates : 1
+Lignes de totaux candidates : 0
+
+FEUILLE : Feuil11
+Indicateur : Indice de parité du TBS
+Dimensions : Région
+Periode : 2015-16, 2016-17
+Lignes avec libelles : 15
+Lignes regionales candidates : 13
+Lignes nationales candidates : 1
+Lignes de totaux candidates : 0
+
+FEUILLE : Feuil12
+Indicateur : Indice de parité du TAP
+Dimensions : Région
+Periode : 2015-16, 2015/2016, 2016-17, 2024/2025
+Lignes avec libelles : 16
+Lignes regionales candidates : 13
+Lignes nationales candidates : 1
+Lignes de totaux candidates : 0
+
+FEUILLE : Feuil13
+Indicateur : Nombre d'écoles primaires
+Dimensions : Région, Statut
+Periode : 2015/2016
+Lignes avec libelles : 43
+Lignes regionales candidates : 13
+Lignes nationales candidates : 1
+Lignes de totaux candidates : 14

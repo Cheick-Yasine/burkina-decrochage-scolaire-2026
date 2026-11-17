@@ -1,0 +1,185 @@
+DETAIL DE LA FEUILLE PRESCOLAIRE
+Libelles textuels uniquement
+
+Ligne 2 : A2 : REGION
+Ligne 3 : B3 : G | C3 : F
+Ligne 4 : A4 : BOUCLE DU MOUHOUN
+Ligne 5 : A5 : CASCADES
+Ligne 6 : A6 : CENTRE
+Ligne 7 : A7 : CENTRE-EST
+Ligne 8 : A8 : CENTRE-NORD
+Ligne 9 : A9 : CENTRE-OUEST
+Ligne 10 : A10 : CENTRE-SUD
+Ligne 11 : A11 : EST
+Ligne 12 : A12 : HAUTS-BASSINS
+Ligne 13 : A13 : NORD
+Ligne 14 : A14 : PLATEAU CENTRAL
+Ligne 15 : A15 : SAHEL
+Ligne 16 : A16 : SUD-OUEST
+Ligne 17 : A17 : Total général
+Ligne 20 : A20 : STATUT
+Ligne 21 : B21 : G | C21 : F
+Ligne 22 : A22 : Public
+Ligne 23 : A23 : Privé
+Ligne 24 : A24 : Communautaire
+Ligne 25 : A25 : Total général
+Ligne 28 : A28 : REGION
+Ligne 29 : B29 : G | C29 : F
+Ligne 30 : A30 : Urbain
+Ligne 31 : A31 : Rural
+Ligne 32 : A32 : indeterminé
+Ligne 33 : A33 : Total général
+Ligne 37 : A37 : STATUT | B37 : NIVEAU
+Ligne 38 : C38 : G
+Ligne 39 : A39 : Public | B39 : Grande section
+Ligne 40 : B40 : Moyenne section
+Ligne 41 : B41 : Petite section
+Ligne 42 : A42 : Total Public
+Ligne 43 : A43 : Privé | B43 : Grande section
+Ligne 44 : B44 : Moyenne section
+Ligne 45 : B45 : Petite section
+Ligne 46 : A46 : Total Privé
+Ligne 47 : A47 : Communautaire | B47 : Grande section
+Ligne 48 : B48 : Moyenne section
+Ligne 49 : B49 : Petite section
+Ligne 50 : A50 : Total Communautaire
+Ligne 51 : A51 : Total général
+Ligne 55 : A55 : REGION
+Ligne 56 : B56 : G | C56 : F
+Ligne 57 : A57 : BOUCLE DU MOUHOUN
+Ligne 58 : A58 : CASCADES
+Ligne 59 : A59 : CENTRE
+Ligne 60 : A60 : CENTRE-EST
+Ligne 61 : A61 : CENTRE-NORD
+Ligne 62 : A62 : CENTRE-OUEST
+Ligne 63 : A63 : CENTRE-SUD
+Ligne 64 : A64 : EST
+Ligne 65 : A65 : HAUTS-BASSINS
+Ligne 66 : A66 : NORD
+Ligne 67 : A67 : PLATEAU CENTRAL
+Ligne 68 : A68 : SAHEL
+Ligne 69 : A69 : SUD-OUEST
+Ligne 70 : A70 : Total général
+Ligne 74 : A74 : REGION
+Ligne 75 : A75 : BOUCLE DU MOUHOUN
+Ligne 76 : A76 : CASCADES
+Ligne 77 : A77 : CENTRE
+Ligne 78 : A78 : CENTRE-EST
+Ligne 79 : A79 : CENTRE-NORD
+Ligne 80 : A80 : CENTRE-OUEST
+Ligne 81 : A81 : CENTRE-SUD
+Ligne 82 : A82 : EST
+Ligne 83 : A83 : HAUTS-BASSINS
+Ligne 84 : A84 : NORD
+Ligne 85 : A85 : PLATEAU CENTRAL
+Ligne 86 : A86 : SAHEL
+Ligne 87 : A87 : SUD-OUEST
+Ligne 88 : A88 : Total général
+Ligne 92 : A92 : REGION | B92 : STATUT
+Ligne 93 : A93 : BOUCLE DU MOUHOUN | B93 : Public
+Ligne 94 : B94 : Privé
+Ligne 95 : B95 : Communautaire
+Ligne 96 : A96 : Total BOUCLE DU MOUHOUN
+Ligne 97 : A97 : CASCADES | B97 : Public
+Ligne 98 : B98 : Privé
+Ligne 99 : B99 : Communautaire
+Ligne 100 : A100 : Total CASCADES
+Ligne 101 : A101 : CENTRE | B101 : Public
+Ligne 102 : B102 : Privé
+Ligne 103 : B103 : Communautaire
+Ligne 104 : A104 : Total CENTRE
+Ligne 105 : A105 : CENTRE-EST | B105 : Public
+Ligne 106 : B106 : Privé
+Ligne 107 : B107 : Communautaire
+Ligne 108 : A108 : Total CENTRE-EST
+Ligne 109 : A109 : CENTRE-NORD | B109 : Public
+Ligne 110 : B110 : Privé
+Ligne 111 : B111 : Communautaire
+Ligne 112 : A112 : Total CENTRE-NORD
+Ligne 113 : A113 : CENTRE-OUEST | B113 : Public
+Ligne 114 : B114 : Privé
+Ligne 115 : B115 : Communautaire
+Ligne 116 : A116 : Total CENTRE-OUEST
+Ligne 117 : A117 : CENTRE-SUD | B117 : Public
+Ligne 118 : B118 : Privé
+Ligne 119 : B119 : Communautaire
+Ligne 120 : A120 : Total CENTRE-SUD
+Ligne 121 : A121 : EST | B121 : Public
+Ligne 122 : B122 : Privé
+Ligne 123 : B123 : Communautaire
+Ligne 124 : A124 : Total EST
+Ligne 125 : A125 : HAUTS-BASSINS | B125 : Public
+Ligne 126 : B126 : Privé
+Ligne 127 : B127 : Communautaire
+Ligne 128 : A128 : Total HAUTS-BASSINS
+Ligne 129 : A129 : NORD | B129 : Public
+Ligne 130 : B130 : Privé
+Ligne 131 : B131 : Communautaire
+Ligne 132 : A132 : Total NORD
+Ligne 133 : A133 : PLATEAU CENTRAL | B133 : Public
+Ligne 134 : B134 : Privé
+Ligne 135 : B135 : Communautaire
+Ligne 136 : A136 : Total PLATEAU CENTRAL
+Ligne 137 : A137 : SAHEL | B137 : Public
+Ligne 138 : B138 : Privé
+Ligne 139 : B139 : Communautaire
+Ligne 140 : A140 : Total SAHEL
+Ligne 141 : A141 : SUD-OUEST | B141 : Public
+Ligne 142 : B142 : Privé
+Ligne 143 : B143 : Communautaire
+Ligne 144 : A144 : Total SUD-OUEST
+Ligne 145 : A145 : Total général
+Ligne 149 : A149 : REGION | B149 : STATUT
+Ligne 150 : A150 : BOUCLE DU MOUHOUN | B150 : Public
+Ligne 151 : B151 : Privé
+Ligne 152 : B152 : Communautaire
+Ligne 153 : A153 : Total BOUCLE DU MOUHOUN
+Ligne 154 : A154 : CASCADES | B154 : Public
+Ligne 155 : B155 : Privé
+Ligne 156 : B156 : Communautaire
+Ligne 157 : A157 : Total CASCADES
+Ligne 158 : A158 : CENTRE | B158 : Public
+Ligne 159 : B159 : Privé
+Ligne 160 : B160 : Communautaire
+Ligne 161 : A161 : Total CENTRE
+Ligne 162 : A162 : CENTRE-EST | B162 : Public
+Ligne 163 : B163 : Privé
+Ligne 164 : B164 : Communautaire
+Ligne 165 : A165 : Total CENTRE-EST
+Ligne 166 : A166 : CENTRE-NORD | B166 : Public
+Ligne 167 : B167 : Privé
+Ligne 168 : B168 : Communautaire
+Ligne 169 : A169 : Total CENTRE-NORD
+Ligne 170 : A170 : CENTRE-OUEST | B170 : Public
+Ligne 171 : B171 : Privé
+Ligne 172 : B172 : Communautaire
+Ligne 173 : A173 : Total CENTRE-OUEST
+Ligne 174 : A174 : CENTRE-SUD | B174 : Public
+Ligne 175 : B175 : Privé
+Ligne 176 : B176 : Communautaire
+Ligne 177 : A177 : Total CENTRE-SUD
+Ligne 178 : A178 : EST | B178 : Public
+Ligne 179 : B179 : Privé
+Ligne 180 : B180 : Communautaire
+Ligne 181 : A181 : Total EST
+Ligne 182 : A182 : HAUTS-BASSINS | B182 : Public
+Ligne 183 : B183 : Privé
+Ligne 184 : B184 : Communautaire
+Ligne 185 : A185 : Total HAUTS-BASSINS
+Ligne 186 : A186 : NORD | B186 : Public
+Ligne 187 : B187 : Privé
+Ligne 188 : B188 : Communautaire
+Ligne 189 : A189 : Total NORD
+Ligne 190 : A190 : PLATEAU CENTRAL | B190 : Public
+Ligne 191 : B191 : Privé
+Ligne 192 : B192 : Communautaire
+Ligne 193 : A193 : Total PLATEAU CENTRAL
+Ligne 194 : A194 : SAHEL | B194 : Public
+Ligne 195 : B195 : Privé
+Ligne 196 : B196 : Communautaire
+Ligne 197 : A197 : Total SAHEL
+Ligne 198 : A198 : SUD-OUEST | B198 : Public
+Ligne 199 : B199 : Privé
+Ligne 200 : B200 : Communautaire
+Ligne 201 : A201 : Total SUD-OUEST
+Ligne 202 : A202 : Total général
