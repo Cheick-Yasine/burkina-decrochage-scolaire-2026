@@ -9,9 +9,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/static/styles.css?v=2">
+  <link rel="stylesheet" href="/static/styles.css?v=3">
   <script src="https://cdn.plot.ly/plotly-2.35.2.min.js" defer></script>
-  <script src="/static/app.js?v=2" defer></script>
+  <script src="/static/app.js?v=3" defer></script>
 </head>
 <body>
   <div class="workspace">
@@ -52,14 +52,9 @@
         </div>
       </header>
       <div class="conversation-scroll">
-        <section class="welcome-hero dashboard-welcome">
-          <div class="hero-copy">
-            <p class="hero-eyebrow">BURKINA FASO · ÉDUCATION · 2026</p>
-            <h1>Tableau de bord <span>du décrochage scolaire</span></h1>
-            <p class="hero-description">Suivre les indicateurs de scolarisation, comparer les régions et repérer les territoires qui nécessitent une attention particulière.</p>
-            <div class="hero-actions"><button class="primary-button" data-go="territories">Explorer les régions <span>→</span></button><span class="hero-caption">Données statistiques officielles · Primaire 2016–2025</span></div>
-          </div>
-          <div class="hero-art dashboard-mark" aria-hidden="true"><div class="dashboard-mark-icon">▥</div><span>VIGILANCE<br>SCOLAIRE</span></div>
+        <section class="dashboard-heading">
+          <div><div class="breadcrumb">Accueil <span>›</span> Tableau de bord</div><h1>Dashboard</h1><p>Vue d’ensemble des indicateurs de l’enseignement primaire au Burkina Faso</p></div>
+          <div class="dashboard-heading-actions"><span class="live-indicator"></span><span>Données statistiques 2016–2025</span></div>
         </section>
 
         <section class="filter-bar">
@@ -70,21 +65,30 @@
           <label>Période<select id="period"></select></label>
         </section>
 
-        <section class="page-section" id="overview-page">
-          <div class="section-heading"><div><p class="eyebrow">SYNTHÈSE NATIONALE</p><h2>Vue générale des indicateurs</h2><p class="section-subtitle">Repères clés pour suivre la situation scolaire et ses disparités régionales.</p></div><span class="section-tag">BURKINA FASO</span></div>
-          <div class="metric-grid">
-            <article class="metric-card"><div class="metric-top"><span>Territoires couverts</span><span class="metric-icon blue">⌖</span></div><strong id="metric-regions">—</strong><small>Régions dans la sélection</small></article>
-            <article class="metric-card"><div class="metric-top"><span>Période récente</span><span class="metric-icon violet">◷</span></div><strong id="metric-period">—</strong><small>Dernière période disponible</small></article>
-            <article class="metric-card"><div class="metric-top"><span>Valeur médiane</span><span class="metric-icon green">⌁</span></div><strong id="metric-median">—</strong><small>Entre les régions observées</small></article>
-            <article class="metric-card"><div class="metric-top"><span>Écart territorial</span><span class="metric-icon amber">↕</span></div><strong id="metric-gap">—</strong><small>Maximum moins minimum</small></article>
+        <section class="page-section dashboard-page" id="overview-page">
+          <div class="metric-grid dashboard-kpis">
+            <article class="metric-card dashboard-kpi"><div class="metric-top"><span>Régions couvertes</span><span class="metric-icon blue">▦</span></div><strong id="metric-regions">—</strong><small>Ancien découpage administratif</small></article>
+            <article class="metric-card dashboard-kpi"><div class="metric-top"><span>Dernière période</span><span class="metric-icon violet">◷</span></div><strong id="metric-period">—</strong><small>Période disponible dans la source</small></article>
+            <article class="metric-card dashboard-kpi"><div class="metric-top"><span>Médiane régionale</span><span class="metric-icon green">▥</span></div><strong id="metric-median">—</strong><small>Pour l’indicateur sélectionné</small></article>
+            <article class="metric-card dashboard-kpi"><div class="metric-top"><span>Écart entre régions</span><span class="metric-icon amber">↕</span></div><strong id="metric-gap">—</strong><small>Valeur maximale – minimale</small></article>
           </div>
-          <div class="chart-grid">
-            <article class="content-card large"><div class="card-heading"><div><p class="eyebrow">ÉVOLUTION</p><h3>Trajectoire de l'indicateur</h3><p>Évolution de la médiane régionale selon les périodes de la source.</p></div><span class="chart-menu">···</span></div><div id="trend-chart" class="chart"></div></article>
-            <article class="content-card"><div class="card-heading"><div><p class="eyebrow">COMPARAISON</p><h3>Lecture territoriale</h3><p>Classement pour la période la plus récente.</p></div></div><div id="overview-rank" class="chart rank-chart"></div></article>
+          <div class="dashboard-layout">
+            <div class="dashboard-side-stack">
+              <article class="content-card compact-stat"><div class="card-heading"><div><p class="eyebrow">BASE STATISTIQUE</p><h3>Observations disponibles</h3></div><span class="card-icon">▤</span></div><strong class="side-stat-value" id="quality-count">—</strong><p class="side-stat-caption">Lignes statistiques après sélection des filtres</p></article>
+              <article class="content-card compact-stat"><div class="card-heading"><div><p class="eyebrow">COUVERTURE</p><h3>Régions suivies</h3></div><span class="card-icon">⌖</span></div><strong class="side-stat-value" id="quality-regions">—</strong><p class="side-stat-caption">Territoires présents dans les données affichées</p></article>
+              <article class="content-card source-mini"><p class="eyebrow">SOURCE DES DONNÉES</p><h3>DGESS · Burkina Faso</h3><p>Statistiques préscolaires et primaires, édition 2016–2025. Périmètre actuellement exploité : enseignement primaire.</p><span class="source-status"><i></i> Source locale chargée</span></article>
+            </div>
+            <div class="dashboard-center-stack">
+              <article class="content-card dashboard-chart-card"><div class="card-heading"><div><p class="eyebrow">ÉVOLUTION DANS LE TEMPS</p><h3>Évolution de l’indicateur</h3><p>Valeur médiane observée dans les régions, par période.</p></div><span class="chart-menu">···</span></div><div id="trend-chart" class="chart"></div></article>
+              <article class="content-card dashboard-chart-card"><div class="card-heading"><div><p class="eyebrow">COMPARAISON TERRITORIALE</p><h3>Indicateur par région</h3><p>Classement des régions pour la période la plus récente.</p></div><span class="chart-menu">···</span></div><div id="overview-rank" class="chart"></div></article>
+            </div>
+            <div class="dashboard-right-stack">
+              <article class="content-card dashboard-donut-card"><div class="card-heading"><div><p class="eyebrow">RÉPARTITION</p><h3>Poids des régions</h3><p>Part des valeurs régionales observées.</p></div></div><div id="distribution-chart" class="mini-donut"></div></article>
+              <article class="content-card dashboard-donut-card"><div class="card-heading"><div><p class="eyebrow">DISPERSION</p><h3>Répartition des niveaux</h3><p>Nombre de régions par quartile.</p></div></div><div id="quartile-chart" class="mini-donut"></div></article>
+            </div>
           </div>
-          <div class="insight-card"><span class="insight-icon">✦</span><div><strong>Lire les résultats avec discernement</strong><p>Les indicateurs présentés décrivent les statistiques scolaires disponibles. Ils ne constituent pas, à eux seuls, une mesure directe de l'abandon ou une prédiction du décrochage.</p></div></div>
+          <div class="insight-card"><span class="insight-icon">✦</span><div><strong>Interprétation des résultats</strong><p>Ces statistiques décrivent les indicateurs scolaires disponibles. Elles ne constituent pas, à elles seules, une mesure directe de l’abandon ni une prédiction individuelle du décrochage.</p></div></div>
         </section>
-
         <section class="page-section" id="territories-page" hidden>
           <div class="section-heading"><div><p class="eyebrow">COMPARAISON TERRITORIALE</p><h2>Explorer les régions</h2><p class="section-subtitle">Repérer les écarts et comparer les niveaux observés.</p></div><label class="inline-filter">Période<select id="territory-period"></select></label></div>
           <article class="content-card"><div class="card-heading"><div><p class="eyebrow">CLASSEMENT RÉGIONAL</p><h3>Comment se répartit l'indicateur ?</h3><p>Le classement porte sur l'indicateur choisi. Son interprétation dépend de sa définition.</p></div></div><div id="territory-chart" class="chart tall-chart"></div><div id="territory-table"></div></article>
