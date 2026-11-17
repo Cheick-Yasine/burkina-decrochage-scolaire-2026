@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101e39">
+  <meta name="description" content="Vigie École — Observatoire territorial de la vigilance scolaire au Burkina Faso.">
+  <title>VIGIE ÉCOLE | Observatoire scolaire</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/styles.css?v=1">
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js" defer></script>
+  <script src="/static/app.js?v=1" defer></script>
+</head>
+<body>
+  <div class="workspace">
+    <aside class="sidebar">
+      <div class="sidebar-top">
+        <a class="brand" href="/">
+          <span class="brand-logo">V</span>
+          <span><strong>VIGIE ÉCOLE</strong><small>OBSERVATOIRE SCOLAIRE</small></span>
+        </a>
+        <button class="icon-button" id="sidebar-toggle" aria-label="Réduire la navigation">☰</button>
+      </div>
+      <div class="side-content">
+        <button class="new-conversation" id="reset-view"><span>＋</span> Nouvelle exploration</button>
+        <nav class="side-nav">
+          <p class="nav-caption">Votre espace</p>
+          <button class="nav-link active" data-page="overview"><span class="nav-icon">⌂</span>Vue d'ensemble</button>
+          <button class="nav-link" data-page="territories"><span class="nav-icon">⌖</span>Explorer les territoires</button>
+          <button class="nav-link" data-page="trends"><span class="nav-icon">↗</span>Évolutions scolaires</button>
+          <button class="nav-link" data-page="method"><span class="nav-icon">▤</span>Qualité & méthode</button>
+        </nav>
+        <div class="sidebar-note">
+          <span class="note-dot"></span>
+          <div><strong>Base de données</strong><small>DGESS · Primaire 2016–2025</small></div>
+        </div>
+      </div>
+      <div class="sidebar-bottom">
+        <div class="profile-mark">BF</div>
+        <div><strong>Data Challenge Burkina</strong><small>Édition 2026 · Défi 1</small></div>
+      </div>
+    </aside>
+
+    <main class="conversation-main">
+      <header class="conversation-header">
+        <div><p class="page-label" id="page-label">Accueil</p><p class="page-context">Observatoire de la vigilance scolaire</p></div>
+        <div class="header-tools">
+          <span class="status-pill"><span></span> Données locales</span>
+          <button class="icon-button light" id="refresh" title="Actualiser les données">↻</button>
+        </div>
+      </header>
+      <div class="conversation-scroll">
+        <section class="welcome-hero">
+          <div class="hero-copy">
+            <p class="hero-eyebrow">BURKINA FASO · ÉDUCATION · 2026</p>
+            <h1>Voir les signaux faibles.<br><span>Agir avant la rupture.</span></h1>
+            <p class="hero-description">Comprendre les trajectoires scolaires, repérer les disparités territoriales et éclairer les décisions pour prévenir le décrochage.</p>
+            <div class="hero-actions"><button class="primary-button" data-go="territories">Explorer les territoires <span>→</span></button><span class="hero-caption">Une lecture fondée sur les données officielles disponibles.</span></div>
+          </div>
+          <div class="hero-art" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit orbit-three"></div><div class="hero-symbol">✳</div><div class="hero-art-caption">DONNÉES <b>→</b> DÉCISIONS</div></div>
+        </section>
+
+        <section class="filter-bar">
+          <div class="filter-heading"><span class="filter-icon">⌕</span><div><strong>Explorer les indicateurs</strong><small>Personnalisez votre lecture</small></div></div>
+          <label>Indicateur<select id="indicator"></select></label>
+          <label>Dimension<select id="dimension"></select></label>
+          <label>Modalité<select id="modality"></select></label>
+          <label>Période<select id="period"></select></label>
+        </section>
+
+        <section class="page-section" id="overview-page">
+          <div class="section-heading"><div><p class="eyebrow">LES REPÈRES</p><h2>La situation en un regard</h2><p class="section-subtitle">Synthèse descriptive de l'indicateur et du périmètre sélectionnés.</p></div><span class="section-tag">VUE NATIONALE</span></div>
+          <div class="metric-grid">
+            <article class="metric-card"><div class="metric-top"><span>Territoires couverts</span><span class="metric-icon blue">⌖</span></div><strong id="metric-regions">—</strong><small>Régions dans la sélection</small></article>
+            <article class="metric-card"><div class="metric-top"><span>Période récente</span><span class="metric-icon violet">◷</span></div><strong id="metric-period">—</strong><small>Dernière période disponible</small></article>
+            <article class="metric-card"><div class="metric-top"><span>Valeur médiane</span><span class="metric-icon green">⌁</span></div><strong id="metric-median">—</strong><small>Entre les régions observées</small></article>
+            <article class="metric-card"><div class="metric-top"><span>Écart territorial</span><span class="metric-icon amber">↕</span></div><strong id="metric-gap">—</strong><small>Maximum moins minimum</small></article>
+          </div>
+          <div class="chart-grid">
+            <article class="content-card large"><div class="card-heading"><div><p class="eyebrow">ÉVOLUTION</p><h3>Trajectoire de l'indicateur</h3><p>Évolution de la médiane régionale selon les périodes de la source.</p></div><span class="chart-menu">···</span></div><div id="trend-chart" class="chart"></div></article>
+            <article class="content-card"><div class="card-heading"><div><p class="eyebrow">COMPARAISON</p><h3>Lecture territoriale</h3><p>Classement pour la période la plus récente.</p></div></div><div id="overview-rank" class="chart rank-chart"></div></article>
+          </div>
+          <div class="insight-card"><span class="insight-icon">✦</span><div><strong>Lire les résultats avec discernement</strong><p>Les indicateurs présentés décrivent les statistiques scolaires disponibles. Ils ne constituent pas, à eux seuls, une mesure directe de l'abandon ou une prédiction du décrochage.</p></div></div>
+        </section>
+
+        <section class="page-section" id="territories-page" hidden>
+          <div class="section-heading"><div><p class="eyebrow">COMPARAISON TERRITORIALE</p><h2>Explorer les régions</h2><p class="section-subtitle">Repérer les écarts et comparer les niveaux observés.</p></div><label class="inline-filter">Période<select id="territory-period"></select></label></div>
+          <article class="content-card"><div class="card-heading"><div><p class="eyebrow">CLASSEMENT RÉGIONAL</p><h3>Comment se répartit l'indicateur ?</h3><p>Le classement porte sur l'indicateur choisi. Son interprétation dépend de sa définition.</p></div></div><div id="territory-chart" class="chart tall-chart"></div><div id="territory-table"></div></article>
+        </section>
+
+        <section class="page-section" id="trends-page" hidden>
+          <div class="section-heading"><div><p class="eyebrow">SUIVI TEMPOREL</p><h2>Les trajectoires dans le temps</h2><p class="section-subtitle">Comparer l'évolution des régions sans confondre années scolaires et années civiles.</p></div></div>
+          <article class="content-card"><div class="card-heading"><div><p class="eyebrow">SÉRIES RÉGIONALES</p><h3>Comparer les évolutions</h3><p>Choisissez les territoires à afficher sur le graphique.</p></div></div><div id="region-choices" class="region-choices"></div><div id="regions-chart" class="chart tall-chart"></div></article>
+        </section>
+
+        <section class="page-section" id="method-page" hidden>
+          <div class="section-heading"><div><p class="eyebrow">TRANSPARENCE</p><h2>Qualité des données & méthode</h2><p class="section-subtitle">Les limites sont visibles : aucune conclusion ne doit dépasser ce que les sources permettent d'affirmer.</p></div></div>
+          <div class="metric-grid three"><article class="metric-card"><div class="metric-top"><span>Observations</span><span class="metric-icon blue">▤</span></div><strong id="quality-count">—</strong><small>Dans le périmètre actif</small></article><article class="metric-card"><div class="metric-top"><span>Régions</span><span class="metric-icon green">⌖</span></div><strong id="quality-regions">—</strong><small>Territoires distincts</small></article><article class="metric-card"><div class="metric-top"><span>Clés répétées</span><span class="metric-icon amber">!</span></div><strong id="quality-duplicates">—</strong><small>Lignes à contrôler</small></article></div>
+          <div class="method-grid"><article class="content-card"><p class="eyebrow">CE QUE L'ON PEUT DIRE</p><h3>Analyses descriptives</h3><ul><li>Comparer les indicateurs scolaires entre régions.</li><li>Suivre les évolutions par période.</li><li>Étudier les différences par sexe ou modalité, si disponibles.</li></ul></article><article class="content-card"><p class="eyebrow">CE QUI RESTE À ÉTABLIR</p><h3>Prudence sur le risque</h3><ul><li>Un indicateur de contexte n'est pas un abandon observé.</li><li>Une baisse d'effectifs ne prouve pas un décrochage.</li><li>Un score de risque exige une méthode documentée et validée.</li></ul></article></div>
+          <div class="source-panel"><strong>Source active</strong><p>DGESS · Données statistiques préscolaire et primaire 2016–2025. Couverture actuellement disponible : primaire, 13 anciennes régions. Les années scolaires et civiles restent distinguées selon la source.</p></div>
+        </section>
+        <footer class="app-footer"><span>VIGIE ÉCOLE</span><span>Data Challenge Burkina 2026 · Défi 1</span><span>Construire une vigilance scolaire utile, explicable et reproductible.</span></footer>
+      </div>
+    </main>
+  </div>
+  <div id="toast" class="toast" role="status"></div>
+</body>
+</html>
