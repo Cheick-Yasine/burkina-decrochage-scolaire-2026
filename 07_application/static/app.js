@@ -18,7 +18,7 @@ $("metric-regions").textContent=new Set(latestRows.map(r=>r.region)).size;$("met
 $("quality-count").textContent=rows.length.toLocaleString("fr-FR");$("quality-regions").textContent=new Set(rows.map(r=>r.region)).size;$("quality-duplicates").textContent=dup;
 const national=periods.map(p=>{const v=rows.filter(r=>r.periode===p).map(r=>r.valeur).sort((a,b)=>a-b);return {period:p,value:v.length%2?v[(v.length-1)/2]:(v[v.length/2-1]+v[v.length/2])/2};});
 plot("trend-chart",[{x:national.map(x=>x.period),y:national.map(x=>x.value),type:"scatter",mode:"lines+markers",line:{color:"#b94d1b",width:3},marker:{color:"#fff",size:8,line:{color:"#b94d1b",width:2}},fill:"tozeroy",fillcolor:"rgba(185,77,27,.08)",hovertemplate:"%{x}<br><b>%{y:,.2f}</b><extra></extra>"}],{...chartLayout(300),yaxis:{title:state.unit,gridcolor:"#eaf0f6",zeroline:false},hovermode:"x unified"});
-const rank=latestRows.reduce((a,r)=>{(a[r.region]??=[]).push(r.valeur);return a;},{});const sorted=Object.entries(rank).map(([region,v])=>({region,value:v.reduce((x,y)=>x+y,0)/v.length})).sort((a,b)=>a.value-b.value);
+const rank=latestRows.reduce((a,r)=>{(a[r.region]??=[]).push(r.valeur);return a;},{});const sorted=Object.entries(rank).map(([region,v])=>({region,value:v.reduce((x,y)=>x+y,0)/v.length})).sort((a,b)=>a.value-b.value);renderDashboardDistributions(sorted);
 plot("overview-rank",[{x:sorted.map(x=>x.value),y:sorted.map(x=>x.region),type:"bar",orientation:"h",marker:{color:"#d97845",cornerradius:5},hovertemplate:"%{y}<br><b>%{x:,.2f}</b><extra></extra>"}],{...chartLayout(Math.max(300,sorted.length*25)),margin:{l:115,r:18,t:10,b:30},yaxis:{automargin:true},xaxis:{gridcolor:"#eaf0f6",zeroline:false}});
 options($("territory-period"),periods,latest);renderTerritories();renderTrends();renderQualityDup(dup);
 }
@@ -39,3 +39,17 @@ $("refresh").addEventListener("click",()=>loadRows().then(()=>toast("Données ac
 $("reset-view").addEventListener("click",()=>{state.dimension="";state.modality="";state.period="";state.regions=[];loadRows().then(()=>setPage("overview")).catch(e=>toast(e.message));});
 $("sidebar-toggle").addEventListener("click",()=>document.querySelector(".workspace").classList.toggle("sidebar-collapsed"));
 (async()=>{try{await loadMeta();await loadRows();}catch(e){document.querySelector(".conversation-scroll").innerHTML='<section class="content-card"><h2>Les données ne sont pas encore prêtes</h2><p>'+escapeHtml(e.message)+'</p><p>Vérifie le fichier traité dans data/processed/indicateurs_primaire.csv puis actualise.</p></section>';}})();
+
+/* Deux répartitions complémentaires du tableau de bord */
+function renderDashboardDistributions(sorted){
+ const positive=sorted.map(x=>({region:x.region,value:Math.max(0,x.value)})).filter(x=>x.value>0);
+ if(!positive.length)return;
+ const top=positive.slice().sort((a,b)=>b.value-a.value);
+ const topThree=top.slice(0,3), rest=top.slice(3).reduce((s,x)=>s+x.value,0);
+ const pieColors=["#c94f1b","#e47a45","#f2b18f","#e5e7ea"];
+ plot("distribution-chart",[{type:"pie",hole:.68,labels:[...topThree.map(x=>x.region),"Autres régions"],values:[...topThree.map(x=>x.value),rest],textinfo:"none",marker:{colors:pieColors,line:{color:"#fff",width:3}},hovertemplate:"%{label}<br>%{percent}<extra></extra>"}],{height:140,margin:{l:2,r:2,t:2,b:2},paper_bgcolor:"transparent",showlegend:false,annotations:[{text:"Régions",showarrow:false,font:{size:10,color:"#777"}}]});
+ const vals=positive.map(x=>x.value).sort((a,b)=>a-b);
+ const q1=vals[Math.floor((vals.length-1)*.25)],q2=vals[Math.floor((vals.length-1)*.5)],q3=vals[Math.floor((vals.length-1)*.75)];
+ const buckets=[positive.filter(x=>x.value<=q1).length,positive.filter(x=>x.value>q1&&x.value<=q2).length,positive.filter(x=>x.value>q2&&x.value<=q3).length,positive.filter(x=>x.value>q3).length];
+ plot("quartile-chart",[{type:"pie",hole:.68,labels:["Niveau bas","Intermédiaire bas","Intermédiaire haut","Niveau haut"],values:buckets,textinfo:"none",marker:{colors:["#f4c6ad","#e99a72","#d96c3b","#ad4319"],line:{color:"#fff",width:3}},hovertemplate:"%{label}<br>%{value} régions<extra></extra>"}],{height:140,margin:{l:2,r:2,t:2,b:2},paper_bgcolor:"transparent",showlegend:false,annotations:[{text:"13 régions",showarrow:false,font:{size:10,color:"#777"}}]});
+}
