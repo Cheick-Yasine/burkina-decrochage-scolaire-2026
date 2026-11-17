@@ -1,40 +1,42 @@
 # Application web — Vigie École
 
-**Vigie École** est l'interface analytique du projet : une plateforme de vigilance scolaire qui transforme les indicateurs validés en lectures territoriales lisibles.
+**Vigie École** reprend le système visuel de HAKIMO : police Manrope, palette bleu / bleu nuit, navigation latérale sombre, cartes blanches, filtres et graphiques interactifs. L'application est construite avec **FastAPI + HTML/CSS/JavaScript** (pas Streamlit).
 
-## Lancer l'application
+## Lancer l'application en local
 
 Depuis la racine du dépôt :
 
 ```powershell
 python -m pip install -r requirements.txt
-python -m streamlit run .\07_application\vigie_ecole.py
+python -m uvicorn 07_application.main:app --reload
 ```
 
-Le fichier traité attendu est :
+Le nom du dossier commençant par un chiffre rend l'import Python direct invalide. Utilise plutôt cette commande depuis la racine :
+
+```powershell
+python -m uvicorn main:app --app-dir .\07_application --reload
+```
+
+Ouvre ensuite : http://127.0.0.1:8000
+
+## Données attendues
 
 `data/processed/indicateurs_primaire.csv`
 
 Les données brutes ne doivent jamais être ajoutées au dépôt public.
 
-## Écrans disponibles
+## Écrans
 
-- **Vue d'ensemble** : repères descriptifs, trajectoire et comparaison territoriale.
-- **Explorer les territoires** : classement pour une période et un indicateur choisis.
-- **Suivre les évolutions** : courbes par région.
-- **Qualité & méthode** : contrôles automatiques et limites d'interprétation.
+- **Vue d'ensemble** : indicateurs descriptifs, trajectoire et comparaison.
+- **Explorer les territoires** : classement régional pour une période.
+- **Évolutions scolaires** : comparaison des trajectoires par région.
+- **Qualité & méthode** : contrôles et limites d'interprétation.
 
-## Règles de présentation
+## Principes
 
-- Aucun chiffre fictif ou indicateur simulé.
-- Les indicateurs descriptifs ne sont jamais renommés « abandons » ou « risque de décrochage ».
-- Les clés territoriales répétées bloquent les classements afin d'éviter une conclusion trompeuse.
+- Aucun chiffre fictif.
+- Les indicateurs descriptifs ne sont jamais présentés comme des abandons ou un score de risque.
+- Les doublons logiques bloquent l'analyse pour éviter les classements trompeurs.
 - Les années scolaires et civiles restent distinguées.
-- La carte géographique ne sera activée qu'après intégration de limites administratives vérifiées et compatibles avec le découpage historique des données.
-
-## Prochaines évolutions
-
-1. Corriger et valider les données sources.
-2. Ajouter une carte des 13 anciennes régions, avec avertissement sur le découpage.
-3. Intégrer les abandons par province et la transition post-primaire dès que les sources officielles sont disponibles.
-4. Construire un Score de Risque de Décrochage documenté, puis évaluer un modèle uniquement si une cible fiable existe.
+- La carte ne sera intégrée qu'avec des limites administratives vérifiées et compatibles avec le découpage historique.
+- Le score de risque et le modèle prédictif viendront après l'intégration des données d'abandon par province et des autres sources officielles.
